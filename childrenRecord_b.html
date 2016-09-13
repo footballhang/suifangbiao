@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>1岁以内儿童健康检查记录表</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/familyDoctor.css"/>
+	<script src="js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div class="content">
+		<div class="header"></div>
+		<div class="main">
+			<div class="mainLeft"></div>
+			<div class="mainRight">		
+				<div class="tR_complete_main">
+				<div class="tR_initiated_main">
+					<div class="tR_triage_item">
+						<h1>0～6岁儿童</h1>
+						<div class="tR_triage_item_right">
+							<a href="index.html">首页</a>
+							<span>&nbsp;>&nbsp;</span>
+							<a href="javascript:;">0～6岁儿童</a>
+						</div>
+					</div>
+					<div class="tR_triage_main tR_cmp_tr_main">
+						<!-- <div class="familyF_detail">
+							<h3>1岁以内儿童健康检查记录表</h3>
+							<div><p>姓名：<span>李丽</span></p><p>性别：<span>女</span></p><p>出生日期：<span>2015-06－02</span></p><p>年龄：<span>1</span></p><p>责任医生：<span>管理员</span></p></div>
+						</div> -->
+						<div class="tR_patientInfo_item cH_patientInfo_item">
+							<h1>1岁以内儿童健康检查记录表</h1>
+							<a href="###" class='tR_patientInfo_item_link hover_font_green'>修改</a>
+							<a href="###" class='tR_patientInfo_item_link hover_font_green save_base'>保存</a>
+						</div>
+						<div class="tR_patientInfo">
+							<div class="tR_patientInfo_item">
+								<div class="name_childTop"><span>姓名：</span><input type="text"/></div>
+								<div class="newFiles_num">
+									<span>编号</span><input type="text"/>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+						<div class="tR_patientInfo">
+							<ul class="tR_patientInfo_ul">
+								<li class="tR_patientInfo_li">满月</li><li>3月龄</li>
+								<li>6月龄</li><li>8月龄</li>
+							</ul>
+							<div class="tR_patientInfo_con">
+								<div class="cH_past_hostory">
+									<p>基本情况</p>
+									<div class="cH_past_hostory_list">
+										<div>
+											<span>体重（kg）:</span>
+											<input type="text"/>
+											<select>
+												<option>请选择</option>
+												<option>上</option>
+												<option>中</option>
+												<option>下</option>
+											</select>
+										</div>
+										<div>
+											<span>身长（cm）:</span>
+											<input type="text"/>
+											<select>
+												<option>请选择</option>
+												<option>上</option>
+												<option>中</option>
+												<option>下</option>
+											</select>
+										</div>
+										<div>
+											<span>头围（cm）:</span>
+											<input type="text"/>
+										</div>
+									</div>	
+								</div>
+								<div class="cH_past_hostory">
+									<p>体格检查</p>
+									<div class="cH_past_hostory_list cH_past_hostory_listA oneMouth_age">
+										<div>
+											<span>面色:</span>
+											<select>
+												<option>请选择</option>
+												<option>红润</option>
+												<option>黄染</option>
+												<option>其他</option>
+											</select>
+										</div>
+										<div>
+											<span>皮肤:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>前囟:</span>
+											<select>
+												<option>请选择</option>
+												<option>闭合</option>
+												<option>未闭</option>
+											</select>
+											<input type="text"/>cmX<input type="text"/>cm
+										</div>
+										<div>
+											<span>颈部包块:</span>
+											<select>
+												<option>请选择</option>
+												<option>有</option>
+												<option>无</option>
+											</select>
+										</div>
+										<div>
+											<span>眼外观:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>耳外观:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>听力:</span>
+											<select>
+												<option>------</option>
+											</select>
+										</div>
+										<div>
+											<span>口腔:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>心肺:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>腹部:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>脐部:</span>
+											<select>
+												<option>请选择</option>
+												<option>未脱</option>
+												<option>脱落</option>
+												<option>脐部有渗出</option>
+												<option>其他</option>
+											</select>
+										</div>
+										<div>
+											<span>四肢:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>可疑佝偻病症状:</span>
+											<select>
+												<option>------</option>
+											</select>
+										</div>
+										<div>
+											<span>可疑佝偻病体征:</span>
+											<select>
+												<option>请选择</option>
+												<option>无</option>
+												<option>颅骨软化</option>
+												<option>方颅</option>
+												<option>枕秃</option>
+											</select>
+										</div>
+										<div>
+											<span>肛门/外生殖:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>血红蛋白值:</span>
+											<input type="text"/>g/L
+										</div>
+									</div>
+									<div class="cH_past_hostory_list cH_past_hostory_listA threeMouth_age none">
+										<div>
+											<span>面色:</span>
+											<select>
+												<option>请选择</option>
+												<option>红润</option>
+												<option>黄染</option>
+												<option>其他</option>
+											</select>
+										</div>
+										<div>
+											<span>皮肤:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>前囟:</span>
+											<select>
+												<option>请选择</option>
+												<option>闭合</option>
+												<option>未闭</option>
+											</select>
+											<input type="text"/>cmX<input type="text"/>cm
+										</div>
+										<div>
+											<span>颈部包块:</span>
+											<select>
+												<option>请选择</option>
+												<option>有</option>
+												<option>无</option>
+											</select>
+										</div>
+										<div>
+											<span>眼外观:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>耳外观:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>听力:</span>
+											<select>
+												<option>------</option>
+											</select>
+										</div>
+										<div>
+											<span>口腔:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>心肺:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>腹部:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>脐部:</span>
+											<select>
+												<option>请选择</option>
+												<option>未脱</option>
+												<option>脱落</option>
+												<option>脐部有渗出</option>
+												<option>其他</option>
+											</select>
+										</div>
+										<div>
+											<span>四肢:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>可疑佝偻病症状:</span>
+											<select>
+												<option>请选择</option>
+												<option>无</option>
+												<option>多汗</option>
+												<option>夜惊</option>
+												<option>烦躁</option>
+											</select>
+										</div>
+										<div>
+											<span>可疑佝偻病体征:</span>
+											<select>
+												<option>请选择</option>
+												<option>无</option>
+												<option>颅骨软化</option>
+												<option>方颅</option>
+												<option>枕秃</option>
+											</select>
+										</div>
+										<div>
+											<span>肛门/外生殖:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>血红蛋白值:</span>
+											<input type="text"/>g/L
+										</div>
+									</div>
+									<div class="cH_past_hostory_list cH_past_hostory_listA sixMouth_age none">
+										<div>
+											<span>面色:</span>
+											<select>
+												<option>请选择</option>
+												<option>红润</option>
+												<option>黄染</option>
+												<option>其他</option>
+											</select>
+										</div>
+										<div>
+											<span>皮肤:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>前囟:</span>
+											<select>
+												<option>请选择</option>
+												<option>闭合</option>
+												<option>未闭</option>
+											</select>
+											<input type="text"/>cmX<input type="text"/>cm
+										</div>
+										<div>
+											<span>颈部包块:</span>
+											<select>
+												<option>请选择</option>
+												<option>有</option>
+												<option>无</option>
+											</select>
+										</div>
+										<div>
+											<span>眼外观:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>耳外观:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>听力:</span>
+											<select>
+												<option>请选择</option>
+												<option>通过</option>
+												<option>未通过</option>
+											</select>
+										</div>
+										<div>
+											<span>出芽颗数:</span>
+											<select>
+												<input type="text"/>
+											</select>
+										</div>
+										<div>
+											<span>心肺:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>腹部:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>脐部:</span>
+											<select>
+												<option>-----</option>
+											</select>
+										</div>
+										<div>
+											<span>四肢:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>可疑佝偻病症状:</span>
+											<select>
+												<option>请选择</option>
+												<option>无</option>
+												<option>多汗</option>
+												<option>夜惊</option>
+												<option>烦躁</option>
+											</select>
+										</div>
+										<div>
+											<span>可疑佝偻病体征:</span>
+											<select>
+												<option>请选择</option>
+												<option>无</option>
+												<option>颅骨软化</option>
+												<option>方颅</option>
+												<option>枕秃</option>
+											</select>
+										</div>
+										<div>
+											<span>肛门/外生殖:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>血红蛋白值:</span>
+											<input type="text"/>g/L
+										</div>
+									</div>
+									<div class="cH_past_hostory_list cH_past_hostory_listA eightMouth_age none">
+										<div>
+											<span>面色:</span>
+											<select>
+												<option>请选择</option>
+												<option>红润</option>
+												<option>黄染</option>
+												<option>其他</option>
+											</select>
+										</div>
+										<div>
+											<span>皮肤:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>前囟:</span>
+											<select>
+												<option>请选择</option>
+												<option>闭合</option>
+												<option>未闭</option>
+											</select>
+											<input type="text"/>cmX<input type="text"/>cm
+										</div>
+										<div>
+											<span>颈部包块:</span>
+											<select>
+												<option>-----</option>
+											</select>
+										</div>
+										<div>
+											<span>眼外观:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>耳外观:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>听力:</span>
+											<select>
+												<option>-----</option>
+											</select>
+										</div>
+										<div>
+											<span>出芽颗数:</span>
+											<select>
+												<input type="text"/>
+											</select>
+										</div>
+										<div>
+											<span>心肺:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>腹部:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>脐部:</span>
+											<select>
+												<option>-----</option>
+											</select>
+										</div>
+										<div>
+											<span>四肢:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>可疑佝偻病症状:</span>
+											<select>
+												<option>请选择</option>
+												<option>无</option>
+												<option>多汗</option>
+												<option>夜惊</option>
+												<option>烦躁</option>
+											</select>
+										</div>
+										<div>
+											<span>可疑佝偻病体征:</span>
+											<select>
+												<option>请选择</option>
+												<option>无</option>
+												<option>颅骨软化</option>
+												<option>方颅</option>
+												<option>枕秃</option>
+											</select>
+										</div>
+										<div>
+											<span>肛门/外生殖:</span>
+											<select>
+												<option>请选择</option>
+												<option>未见异常</option>
+												<option>异常</option>
+											</select>
+										</div>
+										<div>
+											<span>血红蛋白值:</span>
+											<input type="text"/>g/L
+										</div>
+									</div>	
+								</div>
+								<div class="cH_past_hostory">
+									<p>其他检查</p>
+									<div class="cH_past_hostory_list cH_past_hostory_listA">
+										<div>
+											<span>户外活动:</span>
+											<input type="text"/>小时/日
+										</div>
+										<div>
+											<span>服用维生素D:</span>
+											<input type="text"/>IU/日
+										</div>
+										<div>
+											<span>发育评估:</span>
+											<select>
+												<option>请选择</option>
+												<option>通过</option>
+												<option>未过</option>
+											</select>
+										</div>
+										<div>
+											<span>两次随访间患病情况:</span>
+											<select>
+												<option>请选择</option>
+												<option>未患病</option>
+												<option>患病</option>
+											</select>
+										</div>
+										<div class="other_hostory_div">
+											<span>其他:</span>
+											<textarea name="textarea"></textarea>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tR_patientInfo">
+							<div class="tR_patientInfo_item">
+								<h1>转诊记录</h1>
+							</div>
+							<div class="listen_triage">
+								<div class="cH_transfer_record cH_transfer_record1">
+									<span>转诊</span>
+									<div>
+										<input type="radio" name="past"/>
+										<label>无</label>
+									</div>
+									<div>
+										<input  type="radio" name="past"/><label>有</label>
+									</div>
+								</div>
+								<div class="cH_transfer_record cH_transfer_record2">
+									<span>原因</span>
+									<div>
+										<input type="text"/>
+									</div>
+								</div>
+								<div class="cH_transfer_record">
+									<div class="transfer_record_c">
+										<span>机构</span>
+										<input type="text"/>
+									</div>
+									<div class="transfer_record_c">
+										<span>科室</span>
+										<input type="text"/>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tR_patientInfo">
+							<div class="cH_operation_box cH_transfer_record">
+								<div>
+									<span class="form2_bt">指导</span>
+									<div>
+										<input type="checkbox" name="checkB" class="cH_radio"/>
+										<label>科学喂养</label>
+									</div>
+									<div>
+										<input type="checkbox" name="checkB" class="cH_radio"/>
+										<label>生长发育</label>
+									</div>
+									<div>
+										<input type="checkbox" name="checkB" class="cH_radio"/>
+										<label>疾病预防</label>
+									</div>
+									<div>
+										<input type="checkbox" name="checkB" class="cH_radio"/>
+										<label>预防意外伤害</label>
+									</div>
+									<div>
+										<input type="checkbox" name="checkB" class="cH_radio"/>
+										<label>口腔保健</label>
+									</div>
+								</div>
+							</div>
+							<div class="cH_operation_box chineseMedicine none">
+								<div>
+									<span>中医药健康管理服务</span>
+									<div>
+										<input type="checkbox" name="checkB" class="cH_radio"/>
+										<label>中医饮食调养指导</label>
+									</div>
+									<div>
+										<input type="checkbox" name="checkB" class="cH_radio"/>
+										<label>中医起居调摄指导</label>
+									</div>
+									<div>
+										<input type="checkbox" name="checkB" class="cH_radio"/>
+										<label>传授摩腹、捏脊方法</label>
+									</div>
+									<div class="blood_numBox_rC1">
+										<input type="checkbox" name="checkB"/><label>其他</label>
+										<input type="text" class="blood_num-text"/>
+									</div>
+								</div>
+							</div>
+							<div class="cH_transfer_record cH_transfer_record3">
+								<div class="transfer_record_c">
+									<span>下次随访时间:</span>
+									<input type="text"/>
+								</div>
+								<div class="transfer_record_c">
+									<span>随访医生签名:</span>
+									<input type="text"/>
+								</div>
+							</div>
+						</div>
+						<div class="form_btn_box form_btn_box1">
+							<button class="form_saveBtn btn_bg_change" type="button">保存</button>
+							<button class="form_backBtn" type="button">返回</button>
+						</div>
+						<div class="familyFiles_dalog"></div>	
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+	$(".header").load("lib/header.html");
+	$(".mainLeft").load("lib/menu.html",function(){
+		
+		$('.mainList_btn').eq(0).find('ul').find('li').eq(1).addClass('mainList_btn_active');
+		$('.mainList_btn ul li').each(function(){
+			if($(this).hasClass('mainList_btn_active')){
+				$(this).mouseover(function(){
+					$(this).find('a').css('color','white');
+				});
+			}
+		});
+		$('.mainLeft_small_li').each(function(){
+			if($(this).hasClass('mainLeft_small_active')){
+				$(this).mouseover(function(){
+					$(this).find('a').css('color','white');
+				});
+			}
+			if($(this).index()==1){
+				$(this).mouseout(function(){
+					$(this).find('a').eq(0).css('background-image','url(img/fenzhenguanli_1.png)');
+					$(this).addClass('mainLeft_small_active');
+				})
+			}
+		});
+		
+		$('.mainLeft_small_li').eq(0).addClass('mainLeft_small_active');
+		$('.mainLeft_small_li').eq(0).find('a').eq(0).css('background-image','url(img/fenzhenguanli_1.png)');
+		$('.mainLeft_small_li').eq(0).find('li').eq(1).addClass('mainLeft_small_active');
+	});
+
+		$(".tR_patientInfo_ul>li").click(function(){
+			$(this).addClass('tR_patientInfo_li').siblings().removeClass('tR_patientInfo_li');
+		})
+	</script>
+</body>
+</html>
