@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>糖尿病随访表</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/familyDoctor.css"/>
+	<script src="js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div class="content">
+		<div class="header"></div>
+		<div class="main">
+			<div class="mainLeft"></div>
+			<div class="mainRight">		
+				<div class="tR_complete_main">
+				<div class="tR_initiated_main">
+					<div class="tR_triage_item">
+						<h1>糖尿病患者</h1>
+						<div class="tR_triage_item_right">
+							<a href="index.html">首页</a>
+							<span>&nbsp;>&nbsp;</span>
+							<a href="javascript:;">糖尿病患者</a>
+						</div>
+					</div>
+					<div class="tR_triage_main tR_cmp_tr_main">
+						<div class="familyF_detail">
+							<h3>糖尿病组</h3>
+							<div><p>姓名：<span>李丽</span></p><p>性别：<span>女</span></p><p>出生日期：<span>2015-06－02</span></p><p>年龄：<span>1</span></p><p>责任医生：<span>管理员</span></p></div>
+						</div>
+						<div class="tR_patientInfo_item cH_patientInfo_item">
+							<h1>糖尿病患者随访服务记录表</h1>
+							<a href="###" class='tR_patientInfo_item_link hover_font_green'>修改</a>
+							<a href="###" class='tR_patientInfo_item_link hover_font_green save_base'>保存</a>
+						</div>
+						<div class="tR_patientInfo">
+							<div class="tR_patientInfo_item">
+								<h1>基本信息</h1>
+							</div>
+							<div class="visitedStyle_base">
+								<div class="visitedStyle_name">
+									<span>姓名</span>
+									<input type="text"/>
+								</div>
+								<div class="visitedStyle">
+									<span>随访方式</span>
+									<select>
+										<option>请选择</option>
+										<option>门诊</option>
+										<option>家庭</option>
+										<option>电话</option>
+									</select>
+								</div>
+								<div class="newFiles_num">
+									<span>编号</span><input type="text"/>
+								</div>
+							</div>
+						</div>
+						<div class="tR_patientInfo">
+							<div class="tR_patientInfo_item">
+								<h1>健康信息</h1>
+							</div>
+							<div class="tR_patientInfo_con">
+								<!-- <div class="cH_past_hostory">
+									<p>症状</p>
+									<div class="cH_past_hostory_list">
+										<div class="visitedFeritin_box">
+											<div class="visitedFeritin_check">
+												<div id="desrOne"><input type="checkbox" name="desr"/><label>无症状</label></div>
+												<div><input type="checkbox" name="desr"/><label>多饮</label></div>
+												<div><input type="checkbox" name="desr"/><label>多食</label></div>
+												<div><input type="checkbox" name="desr"/><label>多尿</label></div>
+												<div><input type="checkbox" name="desr"/><label>视力模糊</label></div>
+												<div><input type="checkbox" name="desr"/><label>感染</label></div>
+												<div><input type="checkbox" name="desr"/><label>手脚麻木</label></div>
+												<div><input type="checkbox" name="desr"/><label>下肢浮肿</label></div>
+												<div><input type="checkbox" name="desr"/><label>体重明显下降</label></div>
+												<div class="other_zz1"><span class="form_bt">其他</span><input type="text"/></div>
+											</div>
+										</div>
+									</div>
+								</div> -->
+								<div class="cH_past_hostory">
+									<p>体征</p>
+									<div class="cH_past_hostory_list">
+										<div class="generalCondition generalCondition1">
+											<div id="bodyWeightBoxF" class="temperatureBoxF"><span>体重（kg）</span><input type="text"/></div>
+											<div class="bloodPressure temperatureBoxF smokingNumBoxF"><span>血压</span><input type="text"/>mmHg／<input type="text"/>mmHg</div>
+											<div id="bodyWeightBoxF" class="temperatureBoxF"><span>血红蛋白</span><input type="text"/>g/L</div>
+											<div id="bodyWeightBoxF" class="temperatureBoxF"><span>尿蛋白</span><input type="text"/></div>
+											<div class="other_cont"><span class="form_bt">其他辅助检查</span><input type="text"/></div>
+										</div>
+									</div>
+								</div>
+								<div class="cH_past_hostory">
+									<p>生活方式<br/>指导</p>
+									<div class="cH_past_hostory_list">
+										<div class="generalCondition generalCondition1">
+											<div class="bloodPressure temperatureBoxF smokingNumBoxF"><span>日吸烟量(支)</span><input type="text"/>／<input type="text"/></div>
+											<div class="temperatureBoxF smokingNumBoxF"><span>日饮酒量（两）</span><input type="text"/></div>
+											<div class="temperatureBoxF smokingNumBoxF"><span>运动</span><input type="text"/>次／周<input type="text"/>分钟／次</div><br/>
+											<div class="temperatureBoxF smokingNumBoxF"><span>主食（克/每天）</span>
+												<input type="text"/>	
+											</div>
+											<div><span>心理调整</span>
+												<select>
+													<option>请选择</option>
+													<option>良好</option>
+													<option>一般</option>
+													<option>差</option>
+												</select>
+											</div>
+											<div><span>遵医嘱行为</span>
+												<select>
+													<option>请选择</option>
+													<option>良好</option>
+													<option>一般</option>
+													<option>差</option>
+												</select>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="cH_past_hostory">
+									<p>辅助检查</p>
+									<div class="cH_past_hostory_list">
+										<div class="generalCondition generalCondition1">
+											<div class="temperatureBoxF smokingNumBoxF"><span>空腹血糖值</span><input type="text"/>mmol/L</div>
+											<div class="temperatureBoxF smokingNumBoxF"><span>糖化血红蛋白</span><input type="text"/>%</div>
+											<div><span>检查日期</span><input type="text" style="width:150px;"/></div>
+											<div class="otherCheckBox">
+												<span>其他检查</span>
+												<textarea></textarea>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="cH_past_hostory">
+									<p>用药情况</p>
+									<div class="cH_past_hostory_list">
+										<div class="generalCondition generalCondition2">
+											<div><span>服药依从性</span>
+												<select>
+													<option>请选择</option>
+													<option>规律</option>
+													<option>间断</option>
+													<option>不服药</option>
+												</select>
+											</div>
+											<div><span>药物不良反应</span>
+												<select>
+													<option>请选择</option>
+													<option>无</option>
+													<option>有</option>
+												</select>
+											</div>
+											<div class="medien_addBox">
+												<div class="medien_addBoxDiv">
+													<span class="form_bt">药物名称</span><input type="text"/>
+												</div>
+												<div>
+													<input type="text"/><span class="form_bt">次/日</span>
+												</div>
+												<div>
+													<input type="text"/><span class="form_bt">mg/次</span>
+												</div>
+												<div class="files_xinzeng_box files_xinzeng_box1">
+													<a class="newAdd_a" href="#"><i>+</i> 新增</a>
+													<a class="newDelete_a" href="#">删除</a>
+												</div>
+											</div>
+											<!-- <div class="medien_addBox1">
+												<div>
+													<span class="form_bt">药物名称</span><input type="text"/>
+												</div>
+												<div>
+													<input type="text"/><span class="form_bt">次/日</span>
+												</div>
+												<div>
+													<input type="text"/><span class="form_bt">mg/次</span>
+												</div>
+												<div class="files_xinzeng_box files_xinzeng_box1">
+													<a class="newDelete_a" href="#">删除</a>
+												</div>
+											</div> -->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tR_patientInfo">
+							<div class="tR_patientInfo_item">
+								<h1>其他随访信息</h1>
+							</div>
+							<div class="cH_past_hostory">
+								<p>转诊</p>
+								<div class="cH_past_hostory_list">
+									<div class="cH_past_hostory_radio_box">
+										<div class="cH_past_hostory_radio_item">
+											<input type="radio" name="cH_past.hostory_radio">无
+										</div>
+										<div class="cH_past_hostory_radio_item">
+											<input type="radio" name="cH_past.hostory_radio">有
+										</div>
+									</div>
+									<div class="cH_transferReason">
+										<span>原因</span>
+										<input type="text"/>
+									</div>
+									<div class="cH_transferReason1">
+										<div>
+											<span>机构</span>
+											<input type="text"/>
+										</div>
+										<div>
+											<span>科室</span>
+											<input type="text"/>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="cH_past_hostory">
+								<p>保健指导</p>
+								<div class="cH_past_hostory_list">
+									<div class="cH_past_hostory_radio_box">
+										<span class="classify">分类</span>
+										<div class="cH_past_hostory_radio_item">
+											<input type="radio" name="cH_past.hostory_difference">未见异常
+										</div>
+										<div class="cH_past_hostory_radio_item" style="width:70%;">
+											<input type="radio" name="cH_past.hostory_difference">异常<input type="text" class="difference_inp">
+										</div>
+									</div>
+									<div class="cH_past_hostory">
+									<p>保健指导</p>
+									<div class="cH_past_hostory_list">
+										<div class="visitedFeritin_box">
+											<div class="visitedFeritin_check health_guidance">
+												<div style="width:20%;"><input type="checkbox" name="desr"/><label>个人卫生</label></div>
+												<div><input type="checkbox" name="desr"/><label>膳食</label></div>
+												<div><input type="checkbox" name="desr"/><label>心理</label></div>
+												<div><input type="checkbox" name="desr"/><label>运动</label></div>
+												<div class="other_zz1"><span class="form_bt">其他</span><input type="text"/></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								</div>
+							</div>
+							<div class="cH_transfer_record cH_transfer_record3">
+								<div class="transfer_record_c transfer_record_A">
+									<span>此次随访分类</span>
+									<select>
+										<option>请选择</option>
+										<option>控制满意</option>
+										<option>控制不满意</option>
+										<option>不良反应</option>
+										<option>并发症</option>
+									</select>
+								</div>
+								<div class="transfer_record_c">
+									<span>下次随访日期</span>
+									<input type="text" placeholder="建议2016-09-09"/>
+								</div>
+								<div class="transfer_record_c">
+									<span>随访医生</span>
+									<input type="text"/>
+								</div>
+							</div>
+						</div>
+					
+					<div class="form_btn_box form_btn_box1">
+						<button class="form_saveBtn btn_bg_change" type="button">保存</button>
+						<button class="form_backBtn" type="button">返回</button>
+					</div>
+					<div class="familyFiles_dalog"></div>	
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+	$(".header").load("lib/header.html");
+	$(".mainLeft").load("lib/menu.html",function(){
+		
+		$('.mainList_btn').eq(0).find('ul').find('li').eq(1).addClass('mainList_btn_active');
+		$('.mainList_btn ul li').each(function(){
+			if($(this).hasClass('mainList_btn_active')){
+				$(this).mouseover(function(){
+					$(this).find('a').css('color','white');
+				});
+			}
+		});
+		$('.mainLeft_small_li').each(function(){
+			if($(this).hasClass('mainLeft_small_active')){
+				$(this).mouseover(function(){
+					$(this).find('a').css('color','white');
+				});
+			}
+			if($(this).index()==1){
+				$(this).mouseout(function(){
+					$(this).find('a').eq(0).css('background-image','url(img/fenzhenguanli_1.png)');
+					$(this).addClass('mainLeft_small_active');
+				})
+			}
+		});
+		
+		$('.mainLeft_small_li').eq(0).addClass('mainLeft_small_active');
+		$('.mainLeft_small_li').eq(0).find('a').eq(0).css('background-image','url(img/fenzhenguanli_1.png)');
+		$('.mainLeft_small_li').eq(0).find('li').eq(1).addClass('mainLeft_small_active');
+	});
+
+
+
+		$(".newAdd_a").click(function(){
+			var medien_addMode = $(".medien_addBox1").eq(0).clone(true);
+			medien_addMode.css("display","block");
+			$(".generalCondition2").append(medien_addMode);
+			$(".newDelete_a").click(function(){
+				$(this).parent().parent().remove();
+			})
+
+		})
+		$(".newDelete_a").click(function(){
+			$(this).parent().parent().remove();
+		})
+
+		/*计算体质指数*/
+		function BMINum(){		
+			var $weight = $("#bodyWeightBoxF>input").val();
+			var $height = $("#statureBoxF>input").val();
+			var $BMI =$weight/(($height*$height)/10000);
+			$("#BodyMassIndex>input").val($BMI.toFixed(1));
+		}
+
+		$('#bodyWeightBoxF>input').on('change input propertychange',function(){
+			if($(this).val()!=""&&$("#statureBoxF>input").val()!=""){
+				BMINum();
+			}
+		})
+		$('#statureBoxF>input').on('change input propertychange',function(){
+
+			if($(this).val()!=""&&$("#bodyWeightBoxF>input").val()!=""){
+				BMINum();
+			}
+		})
+		/*--症状选择---*/
+		$("#desrOne>input").click(function(){
+			if(this.checked){
+				$(this).parent().siblings().children('input').prop("disabled",true);
+				$(this).parent().siblings().children('input').attr("checked",false);
+			}else if($(this).checked != true){
+				$(this).parent().siblings().children('input').prop("disabled",false);
+			}
+		});
+		
+		//只能输入数字和小数点
+		$(".temperatureBoxF input").keyup(function(){
+			$(this).val($(this).val().replace(/[^\d.]/g,''));
+		})
+
+		/*----血压值----*/
+		$("#bloodPressure input").keyup(function(){
+			var $num = $(this).val();
+
+			if($num.length>5){
+				$(this).val("");
+			}
+		})
+		$("#bloodPressure input").blur(function(){
+			var $num1 = $("#bloodPressure1").val();
+			var $num2 = $("#bloodPressure2").val();
+			if(parseInt($num1)<=parseInt($num2)){
+				alert("收缩压不能低于舒张压");
+				$("#bloodPressure2").val("");
+			}
+		})
+		/*--体重限制字符数--*/
+		$("#bodyWeightBoxF input").keyup(function(){
+			if($(this).val().length>5){
+				$(this).val("");
+			}
+		})
+		/*-限制字符数-*/
+		$(".smokingNumBoxF input").keyup(function(){
+			if($(this).val().length>5){
+				$(this).val("");
+			}
+		})
+
+		/*计算体质指数*/
+		function BMINum(){		
+			var $weight = $("#bodyWeightBoxF>input").val();
+			var $height = $("#statureBoxF>input").val();
+			var $BMI =$weight/(($height*$height)/10000);
+			$("#BodyMassIndex>input").val($BMI.toFixed(1));
+		}
+
+		$('#bodyWeightBoxF>input').on('change input propertychange',function(){
+			if($(this).val()!=""&&$("#statureBoxF>input").val()!=""){
+				BMINum();
+			}
+		})
+		$('#statureBoxF>input').on('change input propertychange',function(){
+
+			if($(this).val()!=""&&$("#bodyWeightBoxF>input").val()!=""){
+				BMINum();
+			}
+		})
+		/*--症状选择---*/
+		$("#desrOne>input").click(function(){
+			if(this.checked){
+				$(this).parent().siblings().children('input').prop("disabled",true);
+				$(this).parent().siblings().children('input').attr("checked",false);
+			}else if($(this).checked != true){
+				$(this).parent().siblings().children('input').prop("disabled",false);
+			}
+		});
+		
+		//只能输入数字和小数点
+		$(".temperatureBoxF input").keyup(function(){
+			$(this).val($(this).val().replace(/[^\d.]/g,''));
+		})
+
+		/*----血压值----*/
+		$("#bloodPressure input").keyup(function(){
+			var $num = $(this).val();
+
+			if($num.length>5){
+				$(this).val("");
+			}
+		})
+		$("#bloodPressure input").blur(function(){
+			var $num1 = $("#bloodPressure1").val();
+			var $num2 = $("#bloodPressure2").val();
+			if(parseInt($num1)<=parseInt($num2)){
+				alert("收缩压不能低于舒张压");
+				$("#bloodPressure2").val("");
+			}
+		})
+		/*--体重限制字符数--*/
+		$("#bodyWeightBoxF input").keyup(function(){
+			if($(this).val().length>5){
+				$(this).val("");
+			}
+		})
+		/*-限制字符数-*/
+		$(".smokingNumBoxF input").keyup(function(){
+			if($(this).val().length>5){
+				$(this).val("");
+			}
+		})
+	</script>
+</body>
+</html>

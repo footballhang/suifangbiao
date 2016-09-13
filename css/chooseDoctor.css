@@ -1,0 +1,142 @@
+.tR_triage_chooseDoctorBox{
+	width:100%;
+	padding:0 20px;
+}
+.tR_triage_main .chooseDoctorBt{
+	width:100%;
+	height:60px;
+	line-height:70px;
+	font-size: 16px;
+	color:#00cfa5;
+}
+.tR_triage_chooseDoctor{
+	overflow:hidden;
+	width:100%;
+	height:484px;
+	border:1px solid #d5eee9;
+}
+.chooseDoctorBox_left{
+	width:170px;
+	height:100%;
+	float:left;
+	border-right:1px solid #d5eee9;
+}
+.chooseDoctorList_small{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+	overflow-y: auto;
+	position: relative;
+}
+.chooseDoctorList_small li{
+	width:100%;
+	height:60px;
+	overflow:hidden;
+	cursor: pointer;
+}
+.chooseDoctorList_small li:hover{
+	background:#ebfbf8;
+}
+.chooseDoctorList_small li>div{
+	float:left;
+}
+.chooseDoctor_touxiang1{
+	width:32px;
+	height:32px;
+	margin:14px 7px 0 20px;
+}
+.chooseDoctor_touxiang1 img{
+	width:100%;
+	height:100%;
+}
+.chooseDoctor_introduce1{
+	width:95px;
+	height:36px;
+	margin-top:10px;
+}
+.chooseDoctor_introduce1 p{
+	line-height: 18px;
+}
+.chooseDoctor_introduce1 .doctorName_text{
+	color:#666;
+}
+.chooseDoctor_introduce1 .doctorZW_text{
+	color:#999;
+}
+.chooseDoctorBox_right{
+	width:80%;
+	height:100%;
+	padding:0 29px;
+	float:left;
+}
+.chooseDoctor_touxiang2{
+	width:100%;
+	height:119px;
+	border-bottom:1px solid #eee;
+	overflow:hidden;
+	padding:32px 0 0 20px;
+}
+.chooseDoctor_tuoxiang_big{
+	width:57px;
+	height:57px;
+	float:left;
+}
+.chooseDoctor_tuoxiang_big img{
+	width:100%;
+	height:100%;
+}
+.chooseDoctor_introduce_big{
+	width:80%;
+	float:left;
+}
+.chooseDoctor_introduce_big div{
+	width:100%;
+	line-height: 26px;
+	margin-left:5px;
+}
+.chooseDoctor_introduce_big .doctorName_pText{
+	min-width:30px;
+	font-size:16px;
+}
+.chooseDoctor_introduce_big div span{
+	line-height: 30px;
+	margin:0 5px;
+}
+.chooseDoctor_introduce_big div a{
+	margin:0 5px;
+	border-left:1px solid #666;
+}
+.chooseDoctor_introduce2{
+	width:100%;
+	height:50px;
+	line-height: 24px;
+	padding-left:20px;
+	margin-top:28px;
+}
+.chooseDoctor_introduce2 h3{
+	width:100%;
+	font-weight:bold;
+}
+.chooseDoctor_introduce2 p{
+	line-height: 24px;
+}
+.chooseDoctorActive_li{
+	background:#ebfbf8;
+}
+.loadingMoreThing{
+	position: absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	height:20px;
+	text-align: center;
+	cursor: pointer;
+	z-index: 10;
+}
+.loadingMoreThing a{
+	line-height: 20px;
+	color:#999;
+}
+.loadingMoreThing a:hover{
+	color:#e83737;
+}

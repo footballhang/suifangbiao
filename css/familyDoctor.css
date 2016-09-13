@@ -1,0 +1,2995 @@
+/*---家庭医生首页--*/
+.family_list_box{
+	width:100%;
+	height:100px;
+	background:#fff;
+	overflow:hidden;
+	margin-top:5px;
+}
+.num_sign_box{
+	width:33%;
+	height:74px;
+	border-right:1px solid #d1ece7;
+	margin-top:13px;
+	overflow:hidden;
+	float:left;
+}
+.num_sign_noBor{
+	border:0;
+}
+.num_sign_content{
+	width:200px;
+	height:100%;
+	margin:0 auto;
+}
+.sign_img_left{
+	float:left;
+	width:42px;
+	height:100%;
+	margin-right:25px;
+}
+.sign_img_left img{
+	width:42px;
+	height:40px;
+	display:block;
+	margin-top:17px;
+}
+.sign_num_right{
+	width:130px;
+	height:100%;
+	float:left;
+	margin-top:5px;
+}
+.sign_num_right p{
+	color:#999;
+	line-height: 30px;
+}
+.sign_num_right p span{
+	font-size:16px;
+	color:#e83737;
+	font-weight:bold;
+}
+.sign_num_right p i{
+	font-style:normal;
+	color:#e83737;
+}
+.family_bt_thing h1{
+	font-size:16px;
+	color:#666;
+	line-height:44px;
+}
+.family_center_content{
+	width:100%;
+	height:auto;
+	margin-top:20px;
+	overflow:hidden;
+}
+.family_table_left{
+	width:71%;
+	height:auto;
+	float:left;
+}
+.family_time_right{
+	width:300px;
+	height:auto;
+	float:right;
+}
+.table_title{
+	width:100%;
+	height:34px;
+	background:#fff;
+	overflow:hidden;
+}
+.week_tab_day{
+	padding-left:38px;
+	float:left;
+}
+.week_tab_day a{
+	display:inline-block;
+	width:50px;
+	line-height: 34px;
+	color:#666;
+	font-size:14px;
+	cursor:pointer;
+}
+.week_tab_day .color_green{
+	color:#00CFA5;
+}
+.visit_num{
+	float:right;
+	line-height: 34px;
+}
+.visit_num p{
+	display:inline-block;
+	color:#999;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.visit_num p span{
+	color:#e83737;
+	font-size:14px;
+}
+.family_wait_table{
+	width:100%;
+	height:auto;
+}
+.family_wait_table thead{
+	width:100%;
+	height:32px;
+	background:#e0efeb;
+}
+.family_wait_table thead th{
+	line-height: 32px;
+	color:#999;
+}
+.table_th_content{
+	width:16%;	
+}
+.table_th_name{
+	width:8%;
+}
+.table_th_age{
+	width:6%;
+}
+.table_th_people{
+	width:8%;
+}
+.table_th_phone{
+	width:14%;
+}
+.table_th_id{
+	width:18%;
+}
+.table_th_operate{
+	width:20%;
+}
+.table_th_time{
+	width:10%;
+}
+.table_th_operate a{
+	margin-left: 10px;
+	color:#666;
+}
+.family_wait_table tbody tr{
+	height:50px;
+	cursor: pointer;
+}
+.family_wait_table tbody td{
+	text-align: center;
+	line-height: 50px;
+	color:#666;
+}
+.family_rili{
+	width:100%;
+	height:306px;
+	margin-bottom:20px;
+	background:#fff;
+}
+.appointment{
+	width:280;
+	height:30px;
+	border-top:1px solid #d1ece7;
+	margin:0 10px;
+}
+.appointment p{
+	display: inline-block;
+	color:#999;
+	line-height: 30px;
+}
+.today_visit{
+	margin-left:24px;
+}
+.appointment p span{
+	color:#e83737;
+}
+.fast_link{
+	width:100%;
+	height:92px;
+	background:#fff;
+	padding:0 8px;
+	overflow:hidden;
+}
+.fast_link li{
+	width:25%;
+	height:100%;
+	float:left;
+	text-align: center;
+}
+.fast_link li a{
+	display:block;
+	width:40px;
+	height:40px;
+	border-radius: 50%;
+	margin:16px 0 0 15px;
+	cursor:pointer;
+}
+.fast_link_li1 a{
+	background:url(../img/penple.png) no-repeat center;
+	background-color:#ffcf85;
+}
+.fast_link_li2 a{
+	background:url(../img/files.png) no-repeat center;
+	background-color:#f69999;
+}
+.fast_link_li3 a{
+	background:url(../img/boxs.png) no-repeat center;
+	background-color:#71c2f9;
+}
+.fast_link_li4 a{
+	background:url(../img/books.png) no-repeat center;
+	background-color:#59d9cc;
+}
+.fast_link li span{
+	display: block;
+	margin-top:8px;
+	color:#999;
+}
+.advert_logo{
+	width:100%;
+	height:80px;
+	background:#fff;
+	margin-top:20px;
+}
+.family_files_search{
+	width:404px;
+	height: 30px;
+	float:right;
+	overflow:hidden;
+	margin-right:10px;
+}
+.family_files_search{
+	margin-top:18px;
+}
+.family_files_search input{
+	width:320px;
+	height:29px;
+	border:1px solid #d2ede7;
+	outline:none;
+	float: left;
+	padding-left:10px;
+	border-radius: 3px;
+}
+.family_files_search button{
+	width:72px;
+	height:28px;
+	color:#fff;
+	border:0;
+	outline:none;
+	background: #00CFA5;
+	float:right;
+}
+
+.family_nav_top{
+	height:44px;
+	margin:6px 0 0 10px;
+}
+.change_visitTime{
+	width:100%;
+	height:100%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	left:0;top:0;
+	z-index: 10;
+}
+.change_time_box{
+	position: absolute;
+	left:0;top:0;
+	right:0;bottom:0;
+	margin:auto;
+	width:400px;
+	height:320px;
+	background:#fff;
+	z-index:10;
+	padding:20px 20px 0;
+}
+.change_time_box input{
+	width:200px;
+	height: 30px;
+	border:1px solid #d2ede7;
+	margin-bottom:230px;
+	outline:none;
+}
+
+
+
+
+/*家庭医生分转诊*/
+.triage_transfer_box{
+	width:100%;
+	height:auto;
+	padding-bottom: 20px;
+	background:#fff;
+	overflow:hidden;
+}
+.triage_transfer_box div{
+	float:left;
+	width:50%;
+	height:200px;
+	margin:192px 0 216px;
+	overflow:hidden;
+}
+.triage_transfer_box a{
+	display:block;
+	width:150px;
+	height:200px;
+	cursor:pointer;
+}
+.family_triage_box a{
+	margin-right:67px;
+	float:right;
+}
+.family_transfer_box a{
+	margin-left:67px;
+}
+.triage_transfer_same a{
+	display:block;
+	width:148px;
+	height:198px;
+	border:1px solid #d0ece6;
+}
+.triage_transfer_same span{
+	display:block;
+	width:100%;
+	height:110px;
+}
+.family_triage_box span{
+	background:url(../img/fenzhen_f_1.png) no-repeat center bottom;
+}
+.family_transfer_box span{
+	background:url(../img/zhuanzhen_f.png) no-repeat center bottom;
+}
+.triage_transfer_same p{
+	width:100%;
+	height:40px;
+	color:#666;
+	font-size:24px;
+	line-height:60px;
+	text-align: center;
+}
+.family_triage_box a:hover,.family_transfer_box a:hover{
+	background:#00CFA5;	
+	border:0;
+}
+.family_triage_box a:hover span{
+	background:url(../img/fenzhen_f.png) no-repeat center bottom;
+}
+.family_transfer_box a:hover span{
+	background:url(../img/zhuanzhen_f_1.png) no-repeat center bottom;
+}
+.triage_transfer_same a:hover p{
+	color:#fff;
+}
+
+/*工作提醒记录*/
+.work_warm_table{
+	width:100%;
+	height:auto;
+	background:#fff;
+	padding-bottom: 20px;
+	overflow:hidden;
+}
+.family_top_serach{
+	width:486px;
+	height:30px;
+	position: relative;
+	float:left;
+	margin: 8px 0 0 10px;
+}
+.family_top_serach select{
+	width:129px;
+	height:28px;
+	float:left;
+	color:#666;
+	background:#fff;
+	border:1px solid #d2ede7;
+}
+.family_top_serach select option{
+	color:#666;
+	line-height:24px;
+}
+.family_top_serach input{
+	width:357px;
+	height:28px;
+	border:1px solid #d2ede7;
+	outline:none;
+	float: left;
+	padding-left:10px;
+	color:#666;
+}
+.family_top_serach button{
+	width:25px;
+	height:30px;
+	border:0;
+	outline:none;
+	background: url(../img/icon_serach.png) no-repeat left center;
+	position: absolute;
+	right:0px;
+}
+.work_wark_record{
+	width:98%;
+	height:auto;
+	margin:10px auto 0;
+	border-collapse:collapse;
+}
+.work_wark_record td,.work_wark_record th{
+	border:1px solid #d2ede7;
+	text-align: center;
+	height:30px;
+	line-height: 30px;
+}
+.work_wark_record td a{
+	color:#666;
+	text-decoration: underline;
+}
+.work_wark_record td a:hover{
+	color:#00cfa5;
+}
+
+/*家庭医生健康宣教*/
+.new_xuanjiao{
+	width:100%;
+	height:auto;
+	background:#fff;
+	padding: 25px 0 20px 0;
+	position: relative;
+}
+.look_hostory{
+	position: absolute;
+	right:20px;
+	top:10px;
+	color:#ccc;
+}
+.info_elem1{
+	width:443px;
+}
+.info_elem1 select,.info_elem1 input{
+	color:#666;
+}
+.info_content_box{
+	width:443px;
+	height:110px;
+	border: 0;
+}
+.info_content{
+	border:1px solid #d4ede9;
+	width:100%;
+	height:70px;
+	outline:none;
+}
+.info_content_box button{
+	position: absolute;
+	bottom:10px;
+	right:10px;
+	width:65px;
+	height:22px;
+	background:#798293;
+	border:0;
+	outline: none;
+	border-radius: 3px;
+	color:#fff;
+}
+.family_health_table{
+	width:100%;
+	height:auto;
+}
+.family_health_table td,.family_health_table th{
+	width:170px;
+	height:100%;
+}
+.family_health_table tr a{
+	color:#666;
+}
+.family_health_table .table_tr_content{
+	width:444px;
+}
+.family_health_table thead{
+	width:100%;
+	height:32px;
+	background:#e0efeb;
+	color:#999;
+}
+.family_health_table tbody tr{
+	width:100%;
+	height:56px;
+	line-height: 56px;
+	text-align: center;
+	cursor: pointer;
+}
+.family_bottom_btn{
+	width:100%;
+	height:90px;
+	background:#fff;
+	overflow:hidden;
+}
+.family_bottom_btn a{
+	display:block;
+	width:88px;
+	height:30px;
+	border:1px solid #ccc;
+	color:#999;
+	margin:40px auto 0;
+	border-radius: 3px;
+	text-align: center;
+	line-height:30px;
+	font-size:14px;
+}
+.family_bottom_btn a:hover{
+	background:#00CFA5;
+	color:#fff;
+	border:0;
+}
+
+/*健康档案*/
+.family_top_serach1{
+	margin-left: 136px;
+}
+.work_warm_table h3{
+	float:left;
+	font-size:14px;
+	height:38px;
+	line-height:63px;
+	padding-left:10px;
+}
+.files_xinzeng_box{
+	float:left;
+}
+.files_xinzeng_box a{
+	display:inline-block;
+	width:73px;
+	height:26px;
+	background:#00CFA5;
+	color:#fff;
+	line-height: 26px;
+	text-align: center;
+	position: relative;
+	margin-left: 15px;
+	margin-top:8px;
+	border-radius: 3px;
+}
+.files_xinzeng_box a i{
+	font-style:normal;
+	font-size:14px;
+	line-height: 26px;
+	color:#fff;
+}
+.files_xinzeng_box .date_out{
+	background:#75b6ee;
+}
+.family_files_table{
+	width:100%;
+	height: auto;
+	margin-top:10px;
+	cursor: pointer;
+}
+.family_files_table thead tr{
+	height:32px;
+	background:#e0efeb;
+}
+.family_files_table tbody tr{
+	text-align: center;
+	height: 56px;
+	line-height:56px;
+}
+.family_files_table td a{
+	color:#666;
+}
+.tR_patientInfo_con table{
+	width:100%;
+	height:auto;
+	border-collapse: collapse;
+}
+.tR_patientInfo_con table td,.tR_patientInfo_con table th{
+	border:1px solid #d2ede7;
+	height:30px;
+	line-height:30px;
+	text-align: center;
+}
+.tR_patientInfo_con table thead{
+	background:#e0efeb;
+}
+.tR_patientInfo_con table a{
+	color:#666;
+	margin:0 5px;
+}
+.noborder{
+	border:0;
+}
+.familyF_detail{
+	width:100%;
+	height:44px;
+	padding:0 10px;
+	border-bottom:1px solid #d2ede7;
+	overflow:hidden;
+}
+.familyF_detail h3{
+	float:left;
+	font-size:14px;
+	line-height: 44px;
+}
+.familyF_detail div{
+	float:right;
+	line-height:44px;
+}
+.familyF_detail div p{
+	margin-right:24px;
+	color:#999;
+	float:left;
+}
+.familyF_detail div p span{
+	color:#00CFA5;
+}
+
+.tR_patientInfo_con ul input{
+	width:150px;
+	height:30px;
+	color:#666;
+	border:0;
+	background: #fff;
+}
+.tR_patientInfo_con .healthFiles_baseList{
+	width:33%;
+}
+.healthFiles_baseList li{
+	margin:5px 0;
+}
+.save_base{
+	display: none;
+}
+
+.files_xinzeng_box1{
+	float:right;
+}
+.files_xinzeng_box1 .newDelete_a{
+	background:#fff;
+	border:1px solid #ccc;
+	color:#999;
+	display: none;
+}
+
+/*---健康档案表格样式---*/
+.newFiles{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+.newFiles h1{
+	width:100px;
+	height:40px;
+	font-size:18px;
+	line-height: 40px;
+	float:left;
+}
+.newFiles .file_table_title{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	font-size:18px;
+	padding-top:10px;
+	background:#e9f4f2;
+}
+.newFiles_num{
+	float:right;
+	height:40px;
+	line-height: 40px;
+}
+.newFiles_num span{
+	width:24px;
+}
+.newFiles_num>input{
+	width:166px;
+	height:30px;
+	border:1px solid #d2ede7;
+	outline: none;
+	padding-left:10px;
+	margin-left:10px;
+	color:#666;
+}
+.newfile_form1,.newfile_form2{
+	width:100%;
+	height:auto;
+	background:#fff;
+	padding-bottom: 20px;
+}
+.newfile_form1 div{
+	width:24.7%;
+	display:inline-block;
+	margin:10px 0;
+}
+.past_history_list div,.past_history_list p{
+	display:inline-block;
+}
+.past_history,.family_hostory{
+	width:100%;
+	height:auto;
+	padding:10px 0;
+	overflow:hidden;
+}
+.past_history>p,.family_hostory>p,.other_information>p{
+	float:left;
+	width:100px;
+	text-align: center;
+	margin-top: 80px;
+	font-size:16px;
+}
+.past_history_list,.family_hostory_list,.other_information_list{
+	display:inline-block;
+	width:90%;
+	height:auto;
+	border:1px solid #d2ede7;
+}
+.newfile_form1 input,.newfile_form1 select,.newfile_form2 input,.newfile_form2 select{
+	border:1px solid #d2ede7;
+	width:160px;
+	height:30px;
+	padding-left:10px;
+	margin-left:10px;
+	color:#333;
+	outline: none;
+}
+.newfile_form1 span{
+	display:inline-block;
+	width:96px;
+	height:30px;
+	line-height: 30px;
+	text-align: right;
+}
+.form2_checkbox span{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	line-height: 30px;
+	text-align: right;
+}
+.form2_checkbox input,.family_fa_list input{
+	width:14px;
+	height:14px;
+	margin-right:10px;
+}
+.newfile_form2 .form2_bt{
+	display:inline-block;
+	width:75px;
+	height: 30px;
+	line-height: 30px;
+	font-size:14px;
+	text-align: right;
+}
+.checkbox_none{
+	display:inline-block;
+	width:100px;
+	height:60px;
+	margin-left:30px;
+	line-height: 30px;
+}
+.checkbox_have{
+	width:75%;
+	display: inline-block;
+	/*min-height:60px;*/
+	margin-left:30px;
+	line-height: 30px;
+}
+.checkbox_have>div{
+	width:120px;
+	height:30px;
+}
+.checkbox_have>div input{
+	margin-left: 0;
+}
+.form2_checkbox_top{
+	overflow:hidden;
+	padding-top:10px;
+}
+.form2_checkbox_top label{
+	width:96px;
+	height:30px;
+}
+.form2_checkbox_top>span{
+	float:left;
+}
+.form2_checkbox_top>div{
+	float:left;
+}
+.other_desr{
+	height:50px;
+}
+.other_desr>div{
+	width:30%;
+}
+.other_desr input{
+	margin-left:20px;
+}
+.past_history_list .operation_box,.other_information .operation_box{
+	width:100%;
+	overflow:hidden;
+	display:block;
+}
+.operation_box>div{
+	width:30%;
+	height:80px;
+	margin:10px 0;
+	float: left;
+}  
+/*.operation_box>div input,.operation_box>div select{
+	margin-left:20px;
+}*/
+.operation_box>div input,.operation_box>div select{
+	width:200px;
+	margin-bottom:10px;
+}
+.operation_box>div span{
+	margin-bottom:10px;
+	line-height:30px;
+}
+.operation_box1{
+	height:50px;
+}
+.operation_box .op_reason_box{
+	width:61%;
+}
+.op_reason_box>div{
+	width:49%;
+}
+.laydate-icon{
+	cursor: pointer;
+	background:url(../skins/molv/rili_1.png) no-repeat 175px center;
+	background-color:#fff;
+}
+/*--其他疾病修改---*/
+.checkboxChooseBox .other_desrBoxChange{
+	width:240px;
+}
+.checkboxChooseBox .other_desrBoxChange .desrBoxChange_inp{
+	width:180px;
+	height:30px;
+	margin-left:5px;
+}
+
+.family_fa_list{
+	overflow:hidden;
+	margin:10px 0 20px;
+	width:100%;
+	height:60px;
+}
+.family_fa_list div{
+	display: inline-block;
+}
+.family_fa_list>span{
+	float:left;
+}
+.family_fa_list>div{
+	float:left;
+}
+.family_fa_list .fa_list_text{
+	width:300px;
+	height:30px;
+	margin:10px 0;
+}
+.family_fa_list .fa_list_text input{
+	width:200px;
+	height:30px;
+	margin-left:10px;
+}
+.other_information{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	padding:10px 0;
+}
+.other_information .operation_box span{
+	width:100px;
+}
+.other_information .operation_box>div{
+	width:33%;
+	height:30px;
+}
+.other_information .operation_box2{
+	height:100px;
+}
+.other_information .operation_box2>div{
+	margin-top: 10px;
+}
+.other_information .form2_bt1{
+	margin-top: 10px;
+	height:30px;
+	line-height: 30px;
+	float:left;
+	display:block;
+}
+.other_information .operation_box .form_bt3{
+	width:65px;
+}
+.other_information .operation_box .user_water{
+	width:28%;
+}
+.other_information .operation_box .user_water1{
+	width:32%;
+}
+.form_personInformation{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	padding:10px 0;
+}
+.form_personInformation .operation_box div{
+	width:33%;
+	height:30px;
+	margin:10px 0 0;
+}
+.form_personInformation .operation_box .form2_bt4{
+	width:150px;
+}
+.form_btn_box{
+	width:100%;
+	height:30px;
+	padding:20px 0;
+	position: relative;
+}
+.form_btn_box button{
+	width:90px;
+	height:30px;
+	border-radius: 3px;
+	outline: none;
+	border:0;
+}
+.form_modifyBtn{
+	position: absolute;
+	left:50%;
+	margin-left: 70px;
+	background: #fff;
+	border:0;
+	color:#999;
+}
+.form_modifyBtn:hover{
+	color:#666;
+}
+.form_commitBtn{
+	position: absolute;
+	left:50%;
+	margin-left: -45px;
+	background:#00cfa5;
+	color:#fff;
+}
+.form_btn_box .form_backBtn{
+	position: absolute;
+	left:50%;
+	margin-left: -160px;
+	border:1px solid #ccc;
+	background: #fff;
+}
+.form_btn_box .form_backBtn:hover{
+	border:0;
+	background: #33d9b7;
+	color:white;
+}
+/*--家庭医生通知---*/
+.tR_initedtriage_top1{
+	width:100%;
+	height:20px;
+}
+.table_message_content1{
+	padding-right:50%;
+}
+.table_message_content2 p{
+	padding-left:20px;
+}
+.table_head_num{
+	width:100px;
+}
+.table_message_time1{
+	width:10%;
+}
+.table_head_opearate{
+	width:15%;
+	position: relative;
+}
+.message_table_content .table_message_content2{
+	text-align: left;
+}
+
+.table_head_opearate a{
+	display: block;
+	width:60px;
+	height:28px;
+	line-height: 28px;
+	text-align: center;
+	background:#00cfa5;
+	color:#fff;
+	border-radius: 3px;
+	cursor: pointer;
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-top:-14px;
+	margin-left:-30px;
+}
+/*--签约申请--*/
+.signApplication_header{
+	width:100%;
+	height:auto;
+	padding:0 20px;
+}
+.signApplication_content{
+	width:100%;
+	height:auto;
+	margin-top:10px;
+}
+.signApplication_table{
+	width:100%;
+	height:auto;
+}
+.signApplication_content .signApplication_table thead tr{
+	width:100%;
+	height:32px;
+	background:#e0efec;
+}
+.signApplication_table tbody tr{
+	width:100%;
+	height:56px;
+	text-align: center;
+	cursor: pointer;
+}
+.signApplication_table tbody td p{
+	width:100%;
+	line-height:24px;
+}
+.signApplication_table .signServer a{
+	width:100%;
+	height:24px;
+	display:block;
+	line-height: 24px;
+	color:#666;
+}
+.signApplication_table .signOperation a{
+	color:#666;
+}
+.signOperation{
+	width:18%;
+}
+.accept_a{
+	margin-right:10px;
+}
+
+/*--重点人群管理---*/
+.tR_triage_main1{
+	background:#e9f4f2
+}
+.focusGroupsChildren{
+	width:32%;
+	height:254px;
+	background:#fff;
+	float:left;
+	margin-bottom: 25px;
+	position: relative;
+}
+.focusGroupMargin{
+	margin:0 2%;
+}
+.focusGroups_main_header{
+	width:100%;
+	height:45px;
+	overflow:hidden;
+	position: relative;
+}
+.focusGroups_main_header h1{
+	width:100%;
+	height:45px;
+	line-height: 45px;
+	color:#999;
+	font-size:14px;
+	padding-left: 10px;
+}
+.focusGroups_main_header h1 span{
+	color:#00CFA5;
+}
+.focusGroups_main_header a{
+	position: absolute;
+	right:10px;
+	top:16px;
+	color:#ccc;
+}
+.focusGroups_main_page{
+	width:100%;
+	height:32px;
+	background:#e0efeb;
+	position: relative;
+}
+.focusGroups_main_page a{
+	width:20px;
+	height:20px;
+	background:#bfd6d0;
+	color:#fff;
+	font-size:14px;
+	font-family: "宋体";
+	text-align: center;
+	line-height: 20px;
+}
+.focusGroups_main_page a:hover{
+	background: #a7c2bb;
+	color:white;
+}
+.focusGroups_page_left{
+	position: absolute;
+	left:10px;
+	top:6px;	
+}
+.focusGroups_page_right{
+	position: absolute;
+	right:10px;
+	top:6px;
+}
+.main_wait_page_time{
+	width:100%;
+	height:100%;
+	line-height: 32px;
+	text-align: center;
+	font-size:14px;
+}
+.children_record_num{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+}
+.children_record_num li{
+	width:48%;
+	height:78px;
+	float:left;
+	text-align: center;
+}
+.children_record_num li span{
+	display: block;
+	font-size:20px;
+	margin:10px 0 5px;
+}
+.children_record_num li p{
+	color:#999;
+}
+.haveBorderBottom{
+	border-bottom: 1px solid #e9f4f2;
+	margin-top:10px;
+}
+.haveBorderRight{
+	border-right:1px solid #e9f4f2;
+	margin-left:6px;
+}
+.focusGroupsChildren>p{
+	position: absolute;
+	bottom:-30px;
+	left:10px;
+	color:#999;
+}
+.files_xinzeng_box select{
+	width:150px;
+	height:30px;
+	color:#666;
+	border:1px solid #d2ede7;
+}
+.childrenVisited_header{
+	width:100%;
+	height:50px;
+	border-bottom: 1px solid #d2ede7;
+}
+.childrenVisited_tab{
+	width:740px;
+	height:34px;
+	overflow:hidden;
+	float:left;
+	margin-top:16px;
+	padding-left:10px;
+
+}
+.childrenVisited_tab li{
+	float:left;
+	line-height: 34px;
+	margin:0 5px;
+	cursor: pointer;
+}
+.childrenVisited_tab li.childrenVisited_tabLi{
+	background:#fff;
+	height:35px;
+	border:1px solid #d2ede7;
+}
+.childrenVisited_tab .childrenVisited_tabLi a{
+	color:#00CFA5;
+}
+.childrenVisited_tab li>a{
+	color:#666;
+	margin:0 10px;
+}
+.childrenVisited_tab li>a:hover{
+	color:#00CFA5;
+}
+.childrenVisited_content h3{
+	width:150px;
+	height:46px;
+	line-height: 46px;
+	float:left;
+	color:#999;
+	font-size:14px;
+	margin-left:10px;
+}
+.childrenVisited_content>div{
+	width:100%;
+	height:auto;
+}
+.childrenVistie_table_box{
+	width:100%;
+	height:auto;
+}
+.childrenVistie_table{
+	width:100%;
+	height:auto;
+}
+.childrenVistie_table thead tr{
+	width:100%;
+	height:32px;
+	background:#e0efeb;
+}
+.childrenVistie_table tbody tr{
+	width:100%;
+	height:56px;
+	cursor: pointer;
+}
+.childrenVistie_table tbody td{
+	text-align: center;
+}
+.childrenVistie_table tbody td p{
+	width:100%;
+	height:24px;
+	line-height: 24px;
+}
+/*.childrenVistie_table tbody td a{
+	width:50%;
+	height:24px;
+	display:inline-block;
+}*/
+.visited_check input{
+	margin-left:15px;
+}
+.childrenVistie_table tbody td a{
+	color:#666;
+	cursor:pointer;
+}
+.start_visit{
+	margin-right:10px;
+}
+.healthFiles_baseList li .baseList_checkbox{
+	width:14px;
+	height:14px;
+	margin:0 5px 0 0;
+}
+.healthFiles_baseList li i{
+	font-style:normal;
+	color:#e83737;
+}
+/*---新生儿家庭访视表格样式---*/
+.tR_patientInfo input{
+	color:#666;
+}
+.cH_patientInfo_item{
+	border-bottom: 1px solid #d2ede7;
+}
+.cH_past_hostory_list div{
+	display:inline-block;
+}
+.cH_past_hostory_list .cH_past_hostory_radio_box{
+	width:80%;
+	height:40px;
+	line-height: 40px;
+	margin-left:30px;
+	margin-bottom: 10px;
+}
+.cH_past_hostory_list .cH_past_hostory_radio_box .classify{
+	width:50px;
+	height:30px;
+	display: inline-block;
+}
+.cH_past_hostory_list .cH_past_hostory_radio_box .cH_past_hostory_radio_item{
+	margin-right:20px;
+}
+.cH_past_hostory_list .cH_past_hostory_radio_box .cH_past_hostory_radio_item .difference_inp{
+	margin-right:5px;
+	width:90%;
+    height: 30px;
+    border: 1px solid #d2ede7;
+    margin-left:10px;
+}
+.cH_past_hostory{
+	min-height:40px;
+	padding:5px 0;
+}
+.cH_past_hostory p{
+	float:left;
+	width:70px;
+	height: 30px;
+	font-size:14px;
+	line-height: 30px;
+	text-align: right;
+}
+.cH_past_hostory i{
+	font-style:normal;
+	color:#e83737;
+} 
+.cH_past_hostory_list1 .checkbox_have div{
+	width:120px;
+	height:30px;
+}
+.cH_past_hostory_list2 .checkbox_have div{
+	width:120px;
+	height:30px;
+}
+.cH_past_hostory_list2 .checkbox_have input{
+	width:50px;
+	height:30px;
+	border:1px solid #d2ede7;
+}
+.cH_past_hostory1>div{
+	width:20%;
+	height:30px;
+	float:left;
+}
+.cH_past_hostory1>div input{
+	width:50px;
+	height:30px;
+	border:1px solid #d2ede7;
+}
+.listen_triage{
+	width:100%;
+	height:auto;
+	padding:10px 0;
+	overflow:hidden;
+}
+.listen_triage>p{
+	width:80px;
+	height:30px;
+	line-height: 80px;
+	font-size:14px;
+	float:left;
+	text-align: right;
+	padding-right:15px;
+}
+.listen_triage_list{
+	width:90%;
+	height:auto;
+	border:1px solid #d2ede7;
+	float:left;
+}
+.cH_operation_box{
+	min-height:50px;
+}
+.cH_operation_box>div{
+	width:100%;
+	height:50px;
+	padding:10px 0;
+}
+.cH_operation_box span{
+	display: inline-block;
+	width:70px;
+	height:30px;
+	text-align: right;
+	padding-right: 10px;
+	font-size:14px;
+}
+.cH_operation_box>div div{
+	display: inline-block;
+}
+.cH_operation_box .cH_radio{
+	width:14px;
+	height:14px;
+	margin:0 10px;
+}
+.cH_operation_box label{
+	margin-right:20px;
+}
+.cH_operation_box input{
+	width:150px;
+	height:30px;
+	border:1px solid #d2ede7;
+}
+.blood_numBox{
+	overflow:hidden;
+}
+.blood_numBox .form2_bt{
+	width:70px;
+	height:30px;
+	display: inline-block;
+	float:left;
+	line-height: 50px;
+	font-size:14px;
+	text-align: right;
+	padding-right:10px;
+}
+.blood_numBox_c{
+	width:80%;
+	/*height:100px;*/
+	display: inline-block;
+	padding-left:10px;
+}
+.blood_numBox_c div{
+	display:inline-block;
+	width:30%;
+	height:50px;
+	padding:10px 0;
+}
+.blood_numBox_c div input{
+	width:50px;
+	height:30px;
+	border:1px solid #d2ede7;
+	margin-left:10px;
+}
+.blood_numBox_c .blood_num-text{
+	width:150px;
+	height:30px;
+}
+.blood_numBox_r{
+	width:80%;
+	height:50px;
+	padding:10px 0 10px 10px;
+}
+.blood_numBox_r div{
+	display:inline-block;
+	width:80px;
+	height:30px;
+	line-height: 30px;
+}
+.blood_numBox_r div input{
+	width:14px;
+	height:14px;
+	margin-right:5px;
+}
+.blood_numBox_r .blood_numBox_rC{
+	width:210px;
+	margin-left:20px;
+}
+.blood_numBox_rC .blood_num-text{
+	width:150px;
+	height:30px;
+	border:1px solid #d2ede7;
+}
+.blood_numBox1 .form2_bt{
+	margin-top: 25px;
+	line-height:24px;
+}
+.blood_numBox1 .blood_numBox_c span{
+	width:100px;
+}
+.blood_numBox1 .blood_numBox_c div{
+	width:33%;
+}
+.blood_numBox_c .cH_radio{
+	width:14px;
+	height:14px;
+}
+.blood_numBox2 .form2_bt{
+	line-height:24px;
+}
+.blood_numBox_c .blood_num-text1{
+	width:300px;
+	height:30px;
+	border:1px solid #d2ede7;
+}
+.cH_transfer_record{
+	width:100%;
+	min-height:50px;
+	padding:10px 0 10px 50px;
+}
+.cH_transfer_record>span{
+	display: inline-block;
+	width:70px;
+	height:30px;
+	line-height: 30px;
+	font-size:14px;
+	text-align: right;
+}
+.cH_transfer_record1 div{
+	width:50px;
+	height:30px;
+	line-height: 30px;
+	padding-left:10px;
+	display: inline-block;
+}
+.cH_transfer_record1 div input{
+	width:14px;
+	height:14px;
+	margin-right: 10px;
+}
+.cH_transfer_record2>div{
+	display: inline-block;
+	padding-left: 10px;
+	width:90%;
+	height:30px;
+}
+.cH_transfer_record2 div input{
+	width:100%;
+	height:30px;
+	border:1px solid #d2ede7;
+}
+.transfer_record_c{
+	width:45%;
+	height:30px;
+	display: inline-block;
+}
+.transfer_record_c>span{
+	display: inline-block;
+	width:70px;
+	height:30px;
+	line-height: 30px;
+	font-size:14px;
+	text-align: right;
+}
+.transfer_record_c input{
+	width:80%;
+	height:30px;
+	border:1px solid #d2ede7;
+	margin-left:10px;
+}
+.blood_numBox_rC1 input{
+	width:14px;
+	height:14px;
+	margin-right:10px;
+}
+.blood_numBox_rC1 .blood_num-text{
+	width:150px;
+	height:30px;
+}
+.form_btn_box1{
+	height:70px;
+}
+.form_saveBtn{
+	position: absolute;
+	left:50%;
+	margin-left:70px;
+	background:#00cfa5;
+	color:#fff;
+}
+.cH_transfer_record3 .transfer_record_c input{
+	width:30%;
+}
+.cH_transfer_record3 span{
+	width:100px;
+}
+.cH_transfer_record3 span i{
+	font-style:normal;
+	color:#e83737;
+}
+/*--1岁以内儿童表格--*/
+.name_childTop{
+	width:200px;
+	height:40px;
+	float:left;
+	line-height: 40px;
+}
+.name_childTop input{
+	width:150px;
+	height:30px;
+	border:1px solid #d2ede7;
+}
+.tR_patientInfo_ul{
+	width:100%;
+	height:30px;
+	border-bottom:1px solid #d2ede7;
+	padding-left:20px;
+	margin-bottom: 20px;
+}
+.tR_patientInfo_ul li{
+	line-height: 29px;
+	padding:0 10px;
+	margin:0 10px;
+	border-bottom: 0;
+	float:left;
+	cursor:pointer;
+}
+.tR_patientInfo_ul li.tR_patientInfo_li{
+	height:30px;
+	border:1px solid #d2ede7;
+	background:#fff;
+	color:#00CFA5;
+	border-bottom: 0;
+}
+.tR_patientInfo_ul li:hover{
+	color:#00CFA5;
+}
+.tR_patientInfo input{
+	padding-left:5px;
+}
+.tR_patientInfo_con input,.tR_patientInfo_con select{
+	padding-left:5px;
+	border:1px solid #d2ede7;
+}
+.tR_patientInfo_con input{
+	width:50px;
+	height:30px;
+}
+.tR_patientInfo_con select{
+	width:150px;
+	height:30px;
+}
+.tR_patientInfo_con .cH_past_hostory{
+	height:auto;
+	padding:10px 0;
+	overflow:hidden;
+}
+.tR_patientInfo_con .cH_past_hostory_list{
+	float:left;
+	width:80%;
+}
+.tR_patientInfo_con .cH_past_hostory_list>div{
+	margin-left:50px;
+}
+.tR_patientInfo_con .cH_past_hostory_listA div{
+	width:49%;
+	height:30px;
+	margin:10px 0;
+}
+.tR_patientInfo_con .cH_past_hostory_listA div span{
+	display:inline-block;
+	width:125px;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+	padding-right:10px;
+}
+.tR_patientInfo_con .cH_past_hostory_listA .other_hostory_div{
+	width:100%;
+}
+.other_hostory_div textarea{
+	width:80%;
+	height:100px;
+	resize:none;
+	border:1px solid #d2ede7;
+	padding-left:10px;
+	line-height: 24px;
+}
+.chineseMedicine>div>span{
+	width:150px;
+	height:30px;
+	display:inline-block;
+}
+.chineseMedicine .blood_numBox_rC1 .blood_num-text{
+	width:250px;
+}
+.tR_patientInfnChild input{
+	width:14px;
+	height:14px;
+}
+.checkbox_none,.checkbox_have{
+	float:left;
+}
+.checkboxSame{
+	height:30px;
+}
+/*---签约管理---*/
+.files_xinzeng_box1 .sever_bag{
+	background:#00c5b1;
+	margin-right: 10px;
+}
+.childrenVisited_header h2{
+	float:left;
+	width:100px;
+	height:100%;
+	line-height:50px;
+	font-size:14px;
+	color:#999; 
+	padding-left: 10px;
+}
+.newAdd_a{
+	margin-right: 10px;
+}
+/*签约申请更改*/
+.signDetails_form,.signDetails_form1{
+	width:100%;
+	height:50px;
+	line-height: 30px;
+	padding:10px;
+}
+.signDetails_form>div,.signDetails_form1>div{
+	width:20%;
+	height:30px;
+	line-height: 30px;
+	display: inline-block;
+}
+.signDetails_form .mainName_sign,.signDetails_form1 .mainName_sign{
+	width:11%;
+}
+.signDetails_form .mainName_sign0,.signDetails_form1 .mainName_sign0{
+	width:5%;
+	text-align: center;
+}
+.signDetails_form .mainName_sign1,.signDetails_form1 .mainName_sign1{
+	width:19%;
+}
+.signDetails_form .mainName_sign1 input,.signDetails_form .mainName_sign1 select,.signDetails_form1 .mainName_sign1 input,.signDetails_form1 .mainName_sign1 select{
+	width:150px;
+}
+.signDetails_form .mainName_sign input,.signDetails_form1 .mainName_sign input{
+	width:80px;
+}
+.signDetails_form>div input,.signDetails_form>div select,.signDetails_form1>div input,.signDetails_form1>div select{
+	width:150px;
+	height:30px;
+	border:1px solid #d2ede7;
+	padding-left: 5px;
+	color:#666;
+}
+.laydate-icon1{
+	cursor: pointer;
+	background:url(../skins/molv/rili_1.png) no-repeat 125px center;
+}
+.signDetails_form>div span,.signDetails_form1>div span{
+	margin-right: 5px;
+}
+.signAgreement_box .childrenVisited_header h2{
+	line-height: 70px;
+}
+.signAgreement_content{
+	padding:0 20px;
+}
+
+.childrenVisited_header p{
+	color:#00CFA5;
+	line-height: 60px;
+	padding-left:20px;
+}
+.childrenVisited_header span{
+	color:#ccc;
+	margin-left:10px;
+	line-height: 60px;
+}
+.servesAgreement{
+	width:100%;
+	height:90px;
+	padding: 0 20px;
+}
+.servesAgreement h2{
+	width:100%;
+	height:44px;
+	line-height: 44px;
+	font-size:14px;
+	color:#999;
+}
+.servesAgreement p{
+	width:100%;
+	height:44px;
+	border:1px solid #d2ede7;
+	padding:0 10px;
+}
+.servesAgreement p span{
+	line-height: 44px;
+	margin:0 5px;
+}
+.myTerms_fd{
+	width:100%;
+	height:auto;
+	background:#fff;
+	padding:0 20px;
+}
+.myTermPro h2{
+	width:100%;
+	height: 54px;
+	line-height: 70px;
+	color:#999;
+	font-size:14px;
+}
+.myTermPro p{
+	width:100%;
+	min-height:100px;
+	line-height:30px;
+	padding:0 10px;
+	border:1px solid #d2ede7;
+}
+.myTermContent_header{
+	width:100%;
+	border-bottom: 1px solid #d2ede7;
+	height:50px;
+	overflow: hidden;
+	line-height: 70px;
+}
+.myTermContent_header h2{
+	width:100px;
+	height:50px;
+	float:left;
+	font-size:14px;
+	color:#999;
+	padding-left:5px;
+}
+.myTermContent_num{
+	float:right;
+}
+.myTermContent_num a{
+	display: inline-block;
+	margin:0 10px;
+	color:#999;
+}
+.myTermContent_num a span{
+	color:#e83737;
+}
+.myTermContent_pro{
+	width:100%;
+	height:auto;
+	background:#fff;
+	padding-bottom: 20px;
+}
+.myTermContent_pro_left{
+	width:40%;
+	height:369px;
+	float:left;
+}
+.myTermMain_box{
+	border:1px solid #d2ede7;
+	width:100%;
+	height:325px;
+}
+.myTermMain_box_boy{
+	width:96%;
+	height:125px;
+	padding:0 10px;
+	border-bottom: 1px solid #d2ede7;
+	font-size:14px;
+	margin:0 auto;
+}
+.myTermMain_box_boy img{
+	display: block;
+	width:57px;
+	height:57px;
+	border-radius: 50%;
+	margin:18px auto 8px;
+}
+.myTermMain_box_boy div{
+	width:100%;
+	height:20px;
+	position: relative;
+}
+.myTermMain_box_boy div span{
+	position: absolute;
+	left:50%;
+	margin-left: -20px;
+}
+.myTermMain_box_boy div i{
+	margin-left: 5px;
+	display:inline-block;
+	width:15px;
+	height:15px;
+	background:url(../img/icon_man.png) no-repeat center;
+	position: absolute;
+	left:50%;
+	top:2px;
+	margin-left:10px;
+}
+.myTermMain_box_boy p{
+	width:100%;
+	line-height: 30px;
+	text-align: center;
+}
+.myTermMain_box_num{
+	width:180px;
+	height:70px;
+	padding:0 10px;
+	margin:0 auto;
+}
+.myTermMain_box_num div,.myTerm_basemes_li3 div{
+	width:50px;
+	height:70px;
+	text-align: center;
+	display:inline-block;
+}
+.myTermMain_box_num div span,.myTerm_basemes_li3 div span{
+	font-size:18px;
+	display:block;
+	height:34px;
+	line-height: 50px;
+}
+.myTermMain_box_num div p,.myTerm_basemes_li3 div p{
+	line-height: 30px;
+	height:34px;
+	font-size:12px;
+	color:#999;
+}
+.myTermMain_box_pro{
+	width:96%;
+	height:128px;
+	padding:6px 10px;
+	border-top: 1px solid #d2ede7;
+	margin:0 auto;
+}
+.myTermMain_box_pro p{
+	width:100%;
+	height:24px;
+	line-height: 24px;
+	margin-left: 35%;
+}
+.myTermContent_pro_right{
+	width:55%;
+	height:auto;
+	float:right;
+}
+.myTermsmember{
+	width:100%;
+	height:138px;
+	border:1px solid #d2ede7;
+	overflow:hidden;
+}
+.myTermsmember div{
+	float:left;
+}
+.myTerm_basemes_li1{
+	width:128px;
+}
+.myTerm_basemes_li1 img{
+	display: block;
+	width:61px;
+	height:61px;
+	border-radius: 50%;
+	margin:25px auto 0;
+}
+.myTerm_basemes_li1 div{
+	width:100%;
+	height:16px;
+	line-height:16px;
+	font-size:14px;
+	text-align: center;
+	margin-top: 8px;
+	position: relative;
+}
+.myTerm_basemes_li1>div span{
+	position: absolute;
+	left:50%;
+	margin-left:-28px;
+}
+.myTerm_basemes_li1>div i{
+	width:13px;
+	height:15px;
+	background:url(../img/icon_woman.png) no-repeat center;
+	position: absolute;
+	left:50%;
+	margin-left:18px;
+}
+.myTerm_basemes_li2{
+	width:250px;
+	margin:5px 0;
+	border-right:1px solid #d2ede7;
+	
+}
+.myTerm_basemes_li2 p{
+	display:block;
+	line-height: 24px;
+}
+.myTerm_basemes_li3{
+	width:188px;
+	padding:30px 44px;
+}
+.server_contentBox{
+	padding:60px 20px;
+}
+.server_contentBox>div{
+	width:351px;
+	height:270px;
+	float:left;
+	padding:10px 90px 40px;
+}
+.server_commonBox{
+	width:167px;
+	height:218px;
+	border:1px solid #d2ede7;
+	border-radius: 20px;
+}
+.server_imgBg1{
+	width:165px;
+	height:158px;
+	background:url(../img/sign_common.png) no-repeat center;
+	/*background-size:cover;*/
+	border-radius: 20px 20px 0 0;
+}
+.server_imgBg2{
+	width:165px;
+	height:158px;
+	background:url(../img/sign_child.png) no-repeat -93px -15px;
+	border-radius: 20px 20px 0 0;
+}
+.server_imgBg3{
+	width:165px;
+	height:158px;
+	background:url(../img/sign_yun.png) no-repeat 0;
+	border-radius: 20px 20px 0 0;
+}
+.server_imgBg4{
+	width:165px;
+	height:158px;
+	background:url(../img/sign_old.png) no-repeat -30px -20px;
+	border-radius: 20px 20px 0 0;
+}
+.server_imgBg5{
+	width:165px;
+	height:158px;
+	background:url(../img/sign_height.png) no-repeat center;
+	border-radius: 20px 20px 0 0;
+}
+.server_imgBg6{
+	width:165px;
+	height:158px;
+	background:url(../img/sign_candy.png) no-repeat center;
+	border-radius: 20px 20px 0 0;
+}
+.server_commonText{
+	width:165px;
+	height:58px;
+	line-height: 24px;
+	border-radius:0  0 20px 20px; 
+	cursor: pointer;
+}
+.server_commonText:hover{
+	background: #00CFA5;
+	color:#fff;
+}
+.server_commonText p{
+	display:block;
+	text-align: center;
+}
+.server_commonText1{
+	padding-top:10px;
+	font-size:18px;
+}
+
+.borderBg_img{
+	background:url(../img/icon_border1.png) no-repeat right -10px;
+}
+.borderBg_img1{
+	border-bottom: 1px solid #eee;
+	margin-bottom: 25px;
+}
+
+/*---test--*/
+.childrenVistie_listBox{
+	width:100%;
+	height:auto;
+}
+.childrenVistie_listHead{
+	width:100%;
+	height:32px;
+	background:#e0efeb;
+	overflow:hidden;
+}
+.childrenVistie_listHead li{
+	float:left;
+	width:10.5%;
+	height:100%;
+	text-align: center;
+	line-height: 32px;
+}
+.childrenVistie_listCont{
+	width:100%;
+	min-height:56px;
+	overflow:hidden;
+	cursor: pointer;
+}
+.childrenVistie_listCont li{
+	float:left;
+	width:10%;
+	height:100%;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 56px;
+}
+.childrenVistie_listBox .childrenVistie_listNum{
+	width:4%;
+}
+.childrenVistie_listCont .childrenVistie_liCont{
+	width:65%;
+	line-height: 24px;
+}
+.childrenVistie_liCont div{
+	width:100%;
+	/*text-align: left;*/
+}
+.childrenVistie_liCont div p,.childrenVistie_liCont div span,.childrenVistie_liCont div a{
+	display:inline-block;
+	width:16%;
+}
+
+/*签约申请更改*/
+.signDetails_form input,.signDetails_form select{
+	background－color:#fff;
+}
+/*.signDetails_form .mainName_sign0{
+	width:8%;
+}*/
+.signDetails_form .mainName_sign0 select,.signDetails_form1 .mainName_sign0 select{
+	width:60px;
+}
+.signDetails_form1>div,.signDetails_form>div{
+	display: inline-block;
+	margin-left:5px;
+}
+.signDetails_form1{
+	position:relative;
+}
+.signDetails_form1 p{
+	height:30px;
+	border:1px solid #d2ede7;
+	padding:0 5px;
+}
+.signDetails_form1 .signD_text1{
+	width:30px;
+}
+.signDetails_form1 .signD_text0{
+	width:90px;
+}
+.signDetails_form1 .signD_text2{
+	width:130px;
+}
+.signDetails_form1 .signD_text3{
+	width:180px;
+}
+.signDetails_form1 .signD_text4{
+	min-width:20%;
+}
+.signDetails_form1 .signD_text4 p{
+	min-width:150px;
+}
+.deletedBtn_sign{
+	display: inline-block;
+	width:20px;
+	height:20px;
+	font-size:14px;
+	border-radius: 50%;
+	font-style:normal;
+	cursor:pointer;
+	text-align: center;
+	line-height:20px;
+	position: absolute;
+	right:30px;
+	top:15px;
+}
+.deletedBtn_sign:hover{
+	color:#fff;
+	background:#e83737;
+}
+.signDetails_form1{
+	display: none;
+}
+
+
+
+
+/*--高血压患者---*/
+.childrenVistie_table .childrenVistie_oper{
+	width:150px;
+}
+.feritinVisitedTime{
+	width:610px;
+	height:50px;
+	padding:10px 0;
+	display:inline-block;
+}
+.feritinVisitedTime>div{
+	display: inline-block;
+	width:49%;
+	height:30px;
+	float: left;
+	position: relative;
+}
+.feritinVisitedTime div span{
+	width:50px;
+	line-height: 30px;
+	color: #666;
+	margin-right:5px;
+}
+.feritinVisitedTime div input{
+	width:150px;
+	height:30px;
+	border:1px solid #d2ede7;
+}
+.feritinVisitedTime div button{
+	width: 50px;
+	height: 28px;
+	border: 0;
+	outline: none;
+	background: #00CFA5;
+	color:#fff;
+	margin-left:5px;
+	border-radius: 3px;
+}
+.visitedStyle{
+	width:200px;
+	height:40px;
+	line-height: 40px;
+	display: inline-block;
+}
+.visitedStyle select{
+	width:150px;
+	height:30px;
+	border:1px solid #d2ede7;
+}
+.visitedStyle_base{
+	overflow:hidden;
+	width:100%;
+	height:40px;
+}
+.visitedStyle_base>div{
+	width:25%;
+	float:left;
+	display:inline-block;
+}
+.visitedStyle_name{
+	padding-left:20px;
+}
+.visitedStyle_name input{
+	width:150px;
+	height:30px;
+	border:1px solid #d2ede7;
+}
+.cH_past_hostory_list .visitedFeritin_box{
+	margin-left:20px;
+}
+.cH_past_hostory_list .health_guidance div{
+	width:25%;
+}
+.cH_past_hostory_list .health_guidance div input{
+	vertical-align: middle;
+}
+.visitedFeritin_box input{
+	width:14px;
+	height:14px;
+	border:1px solid #d2ede7;
+	margin-right:5px;
+}
+.visitedFeritin_box .visitedFeritin_check div{
+	width:15%;
+	height:30px;
+}
+.visitedFeritin_box .visitedFeritin_check .other_zz1{
+	width:55%;
+}
+.visitedFeritin_check .other_zz1 input{
+	width:90%;
+	height:30px;
+	margin-left: 5px;
+}
+.generalCondition .other_cont{
+	display: block;
+	width:100%;
+	height:50px;
+	padding:10px 0;
+}
+.generalCondition .other_cont input{
+	width:90%;
+	margin-left: 5px;
+}
+.generalCondition1{
+	width:100%;
+	height:auto;
+}
+.generalCondition1 textarea{
+	width:100%;
+	height:70px;
+	resize: none;
+	line-height: 24px;
+	padding:0 10px;
+	outline: none;
+	border:1px solid #d2ede7;
+}
+.generalCondition2 div{
+	width:40%;
+	height:50px;
+}
+.generalCondition2 .medien_addBox,.generalCondition2 .medien_addBox1{
+	width:100%;
+}
+.generalCondition2 .medien_addBox1{
+	display:none;
+}
+.generalCondition2 .medien_addBox>div,.generalCondition2 .medien_addBox1>div{
+	width:15%;
+}
+.generalCondition2 .medien_addBox .medien_addBoxDiv{
+	width:40%;
+}
+.medien_addBox .medien_addBoxDiv input{
+	width:200px;
+}
+.cH_transfer_record3 .transfer_record_A{
+	display:block;
+	width:400px;
+	height:40px;
+	margin-bottom: 10px;
+}
+.transfer_record_A select{
+	width:200px;
+	height:30px;
+	border:1px solid #d2ede7;
+}
+.cH_past_hostory_list .cH_transferReason,.cH_past_hostory_list .cH_transferReason1{
+	display:block;
+	width:80%;
+	height:40px;
+	margin-bottom: 10px;
+	margin-left:100px;
+}
+.cH_transferReason span,.cH_transferReason1 span{
+	width:50px;
+	height:30px;
+	line-height:30px;
+	display: inline-block;
+}
+.cH_transferReason input{
+	width: 90%;
+	height:30px;
+	border:1px solid #d2ede7;
+}
+.cH_transferReason1>div{
+	width:30%;
+	height:30px;
+}
+.cH_transferReason1>div input{
+	width:150px;
+	height:30px;
+	border:1px solid #d2ede7;
+}
+.cH_past_hostory{
+	min-height:40px;
+}
+.generalCondition1 .otherCheckBox{
+	display: block;
+	width:80%;
+}
+.generalCondition1 .otherCheckBox>span{
+	float:left;
+}
+.otherCheckBox textarea{
+	width:90%;
+	height:70px;
+}
+select{
+	background:#fff;
+	outline:none;
+}
+input{
+	outline:none;
+}
+/*---宣教原文---*/
+.xuanjiaoContentBox{
+	width:100%;
+	height:auto;
+	padding:0 20px;
+	background:#fff;
+}
+.xuanjiaoMainContent h1{
+	width:100%;
+	height:40px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 40px;
+}
+.xuanjiaoMainContent h4{
+	width:100%;
+	height: 30px;
+	line-height: 30px;
+	font-size:14px;
+	padding-left: 20px;
+}
+.xuanjiaoMainContent h4 span{
+	color:#00CFA5;
+}
+.xuanjiaoMainContent>p{
+	line-height: 24px;
+}
+.xuanjiaoMainContent>div{
+	width:100%;
+	height:auto;
+	margin-top:30px;
+	padding-left: 20px;
+	font-size:14px;
+}
+.xuanjiaoMainContent>div p{
+	line-height:24px;
+}
+.family_center_content1{
+	margin-top: 0;
+}
+
+
+
+
+/*--体检表---*/
+.newFiles1{
+	margin-top:10px;
+}
+.newFiles_num a{
+	color:#999;
+	cursor:pointer;
+}
+.baseInformation{
+	width:100%;
+	height:120px;
+	padding:20px;
+	background:#fff;
+}
+.baseInformation_bottom{
+	width:100%;
+	height:30px;
+	padding:10px 0;
+	
+}
+.baseInformation_bottom div{
+	width:33%;
+	height:30px;
+	line-height: 30px;
+	display: inline-block;
+}
+.baseInformation_bottom div span{
+	line-height: 30px;
+	margin-left:20px;
+}
+.baseInformation_bottom div input{
+	width:200px;
+	height:30px;
+	border:1px solid #d2ede7;
+	margin-left:10px;
+	padding-left:10px;
+}
+.checkbox_have .other_zz{
+	width:80%;
+	height:50px;
+	padding:10px 0;
+}
+.other_zz span{
+	font-size:14px;
+	margin-right:10px;
+}
+.checkbox_have .other_zz input{
+	width:90%;
+	height:30px;
+	
+}
+.generalCondition,.generalCondition1,.generalCondition2{
+	padding-left:20px;
+}
+.generalCondition div{
+	width:200px;
+	height:50px;
+	display:inline-block;
+	padding:10px 0;
+}
+.generalCondition div input{
+	width:50px;
+	height:30px;
+	border:1px solid #d2ede7;
+}
+.generalCondition .bloodPressure{
+	width:500px;
+}
+.generalCondition .bloodPressure input{
+	margin:0 2px;
+}
+.generalCondition .bloodPressure_right{
+	margin-left:10px;
+}
+.generalCondition1 div{
+	width:40%;
+	height:50px;
+	padding:10px 0;
+	display: inline-block;
+}
+.generalCondition1 div select{
+	width:200px;
+	height:30px;
+}
+.generalCondition2 div{
+	display: inline-block;
+	width:45%;
+	height:50px;
+	padding:10px 0;
+}
+/*.past_history_listF>div{
+	width:100%;
+}*/
+.generalCondition select{
+	width:100px;
+}
+.past_history_listF .form2_bt2{
+	float:left;
+}
+.formHostoryBt .form2_bt2{
+	margin-top: 10px;
+}
+.formHostoryBt .generalConditionTt{
+	width:90%;
+}
+.generalCondition .mainLongSpan{
+	width:300px;
+}
+.generalCondition .mainLongSpan input{
+	width:200px;
+}
+.mainDivWidthLong{
+	width:47%;
+}
+.past_history_list .mainDivWidthLong input{
+	width:150px;
+}
+.mainDivWidthLong1 .generalCondition input{
+	width:50px;
+}
+.mainDivWidthLong .generalCondition{
+	width:80%;
+}
+.mainDivWidthLong .generalCondition div{
+	width:100%;
+}
+.generalCondition .mainLongDivCh{
+	width:50%;
+	margin-top:-8px;
+}
+.generalCondition .mainLongDivCh input{
+	width:150px;
+}
+.mainDivWidthLong .form2_bt3{
+	width:90px;
+}
+.mainDivWidthLong .form2_bt4{
+	width:120px;
+}
+.past_history_list .mainTextBoxF{
+	display: block;
+}
+.mainTextBoxF .generalCondition{
+	width:90%;
+	margin-bottom: 10px;
+}
+.mainTextBoxF .generalCondition div{
+	width:90%;
+}
+.mainTextBoxF textarea{
+	width:100%;
+	height:70px;
+	border:1px solid #d2ede7;
+	resize:none;
+}
+.mainDivWidthLong2 .generalCondition{
+	width:50%;
+}
+.mainDivWidthLong2{
+	width:43%;
+}
+.generalConditionInp{
+	overflow:hidden;
+}
+.generalConditionInp>div{
+	width:25%;
+	float:left;
+}
+.generalConditionInp div input{
+	width:120px;
+}
+.generalConditionInp .generalConditionInp1 input{
+	width:60px;
+}
+.past_history_list .generalConditionMed{
+	width:100%;
+	overflow:hidden;
+}
+.past_history_list .generalConditionMed>div{
+	width:20%;
+	float:left;
+}
+.generalConditionMed>div input{
+	width:120px;
+}
+.past_historyMen>p{
+	margin-top: 20px;
+}
+.past_history_list .generalConditionMen{
+	width:100%;
+}
+.past_history_list .generalConditionMen div{
+	width:30%;
+}
+.generalConditionMen div input{
+	width:150px;
+}
+.family_hostory_list,.form2_checkbox_top,.past_history_list{
+	background:#e9f4f2;
+}
+.checkbox_have1{
+	width:100%;
+}
+.checkbox_have1>div{
+	width:12.5%;
+	float:left;
+}
+.formHostoryBt .generalCondition>div{
+	float:left;
+}
+.checkbox_have div input{
+	width:14px;
+	height:14px;
+	margin-right:5px;
+}
+.generalConditionTt .checkboxBeer{
+	width:100%;
+	padding:0;
+}
+.generalConditionTt .checkboxBeer div{
+	width:15%;
+}
+.generalConditionTt .checkboxBeer .beerOtherDiv{
+	width:30%;
+}
+.beerOtherDiv .inpLongWidth{
+	width:150px;
+	height:30px;
+}
+.generalCondition .teethBoxCh_form{
+	width:95%;
+	height:80px;
+}
+.generalCondition .teethBoxCh_form>div{
+	width:95%;
+	height:80px;
+	margin-top:-20px;
+}
+.generalCondition .teethBoxCh_form>div>div{
+	height:50px;
+	float:left;
+}
+.generalCondition .teethBoxCh_form input{
+	width:14px;
+	height:14px;
+}
+.teethBoxCh_form .mainTeechBox_check{
+	width:320px;
+	margin-top:-10px;
+}
+.teethBoxCh_form .mainTeechBox_check>div{
+	width:260px;
+}
+.teethBoxCh_form .mainTeechBox_check>div input{
+	width:30px;
+	height:20px;
+	padding-left: 5px;
+	margin-right:5px;
+	margin-left:0;
+}
+.eyeBoxFormNum .generalCondition>div{
+	width:150px;
+}
+.eyeBoxConditionL .generalCondition input{
+	width:14px;
+	height:14px;
+}
+.eyeBoxConditionL .generalCondition>div>div{
+	width:70px;
+}
+.eyeBoxConditionL .generalCondition>div>div input{
+	margin-right:5px;
+}
+.eyeBoxConditionL .generalCondition .eyeBoxConditionL_ch{
+	width:240px;
+}
+.mainDivWidthLongWomen .generalCondition{
+	width:90%;
+}
+.mainDivWidthLongWomen .generalCondition>div{
+	width:49%;
+}
+.mainDivWidthLongWomen .generalCondition>div input{
+	width:150px;
+}
+.mainTextBoxF .generalCondition{
+	height:80px;
+}
+.formHostoryBt .form2_bt4{
+	float:left;
+	width:100px;
+}
+.checkbox_have .widthChooseBoxOther{
+	width:210px;
+}
+.widthChooseBoxOther .inpLongWidth{
+	width:150px;
+	height:30px;
+	margin-left:5px;
+}
+.formHostoryChoose{
+	width:100%;
+	margin:5px 0;
+}
+.checkbox_have2{
+	width:90%;
+}
+.checkbox_have2 .unusualtextBox{
+	width:90%;
+	margin-left:10px;
+}
+.checkbox_have2 .unusualtextBox input{
+	width:110px;
+	height:30px;
+	margin-left:5px;
+}
+.checkbox_have2 .dangerousBoxF{
+	width:300px;
+}
+.dangerousBoxF .dangerousBoxInp{
+	width:150px;
+	height:30px;
+	margin-left:5px;
+}
+
+
+
+/*---签约申请样式更改---*/
+.signApplication_headList{
+	width:100%;
+	height:32px;
+	background:#e0efeb;
+	overflow:hidden;
+}
+.signApplication_headList li{
+	width:20%;
+	height:32px;
+	text-align: center;
+	line-height: 32px;
+	float:left;
+}
+.signApplication_ContentList{
+	width:100%;
+	min-height: 56px;
+	overflow:hidden;
+}
+.signApplication_ContentList li{
+	width:20%;
+	height:100%;
+	line-height: 56px;
+	text-align: center;
+	float:left;
+	cursor: pointer;
+}
+.signApplication_ContentList .signApplication_ContentLi{
+	width:60%;
+	line-height: 24px;
+} 
+.signApplication_ContentLi div{
+	width:100%;
+}
+.signApplication_ContentLi div p,.signApplication_ContentLi div span,.signApplication_ContentLi div a{
+	width:33.3%;
+	float:left;
+}
+
+
+/*团队成员维护*/
+.myTermAddContent_top{
+	width:100%;
+	height:50px;
+	overflow:hidden;
+	border-bottom:1px solid #d1ece7;
+	padding:0 20px;
+}
+.myTermNameBox{
+	width:350px;
+	height:30px;
+	float:left;
+	margin-top:10px;
+}
+.myTermNameBox span{
+	display: inline-block;
+	width:80px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	font-size:14px;
+}
+.myTermNameBox input{
+	width:200px;
+	height:30px;
+	border:1px solid #d2ede7;
+}
+.myTermAddContent_main{
+	width:100%;
+	height:auto;
+	padding:0 20px;
+}
+.termMerberModelBox{
+	width:100%;
+	height:auto;
+}
+.termMerberModel,.termMerberAddBox{
+	width:100%;
+	height:50px;
+	line-height:50px;
+}
+.termMerberModel>div,.termMerberAddBox>div{
+	display:inline-block;
+	width:24%;
+}
+.termMerberModel>div span,.termMerberAddBox>div span{
+	display: inline-block;
+	width:80px;
+	height:30px;
+	line-height:30px;
+	text-align: right;
+	margin-right:10px;
+}
+.termMerberModel>div select,.termMerberAddBox>div select{
+	width:100px;
+	height:30px;
+	border:1px solid #d2ede7;
+	padding-left: 5px;
+}
+.termMerberModel>div input,.termMerberAddBox>div input{
+	width:150px;
+	height: 30px;
+	border:1px solid #d2ede7;
+	padding-left: 5px;
+	color:#666;
+}
+.termMerberModel>div a,.termMerberAddBox>div a{
+	display:inline-block;
+	width:40px;
+	height:30px;
+	line-height: 30px;
+	color:#666;
+	text-align: center;
+	cursor:pointer;
+}
+
+/*---团队首页新增团队---*/
+.myTermAddContent_top1{
+	border:0;
+}
+.myTermNameBox h1{
+	font-size:14px;
+	line-height:50px;
+}
+.myTermNameBoxTable{
+	width:100%;
+	height:auto;
+	margin-top:10px;
+}
+.myTermIndexTable{
+	width:100%;
+	height:auto;
+}
+.myTermIndexTable thead tr{
+	width:100%;
+	height:32px;
+	background:#e0efeb;
+}
+.myTermIndexTable tbody tr{
+	width:100%;
+	height:56px;
+	text-align: center;
+	cursor:pointer;
+}
+.myTermIndexTable tbody td a{
+	display: inline-block;
+	width:30px;
+	height:30px;
+	line-height: 30px;
+	color:#666;
+}
+.myTermAddContent_main1{
+	margin-top: 10px;
+	border-top:1px solid #d1ece7;
+}
+.myTermBriefIntroduction{
+	width:100%;
+	min-height:200px;
+}
+.myTermBriefIntroduction textarea{
+	width:100%;
+	min-height:200px;
+	border:1px solid #d2ede7;
+	resize: none;
+	padding:10px;
+	line-height: 24px;
+	background:#fff;
+}
+.editbtnBox1{
+	display: none;
+}
+
+/*签约申请协议*/
+.tR_triage_main2{
+	height:auto;
+}
+.signAgreement_content h1{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	font-size:16px;
+	text-align: center;
+	color:#333;
+}
+.signAgreement_content h2{
+	width:100%;
+	height:30px;
+	line-height: 30px;
+	font-size:14px;
+	color:#333;
+}
+.signAgreement_content p{
+	padding:0 10px;
+	line-height: 24px;
+	text-indent:15px;
+}
+.signAgreement_divTop{
+	width:100%;
+	height:auto;
+}
+.signAgreement_divTop div{
+	width:100%;
+	height:24px;
+	line-height: 24px;
+	padding-left:10px;
+}
+
+
+
+/*--test--*/
+.signAgreement_divTop{
+	margin-bottom:30px;
+}
+.signAgreement_divTop div,.signAgreement_divfooter>div{
+	padding-left: 20px;
+	font-size:14px;
+	width:100%;
+	height:50px;
+}
+.signAgreement_divTop div a,.signAgreement_divfooter div a{
+	display: inline-block;
+	padding:0 30px;
+	border-bottom: 1px solid #000;
+}
+.signAgreement_divfooter{
+	margin-top:50px;
+}
+.signAgreement_divfooter div{
+	margin:10px 0;
+}
+.signAgreement_divfooter>div div{
+	display: inline-block;
+	height:30px;
+	line-height: 30px;
+}
+.signAgreement_divfooter div span,.signAgreement_divTop div span{
+	margin:0 20px;
+} 
+/*--老年人自理能力表--*/
+table,th,td{
+	border:1px solid #ccc;
+}
+.tab_list{
+	width:100%;
+	border-collapse:collapse;
+}
+.tab_list td{
+	padding:0 5px;
+}
+.tab_list .tab_list_tr{
+	height:40px;
+	line-height: 40px;
+}
+.tab_list .tab_list_tr td input{
+	vertical-align: middle;
+	margin-right: 3px;
+}
+.tab_list #dataTime{
+	margin:5px auto;
+	width:50%;
+	height:30px;
+	border:1px solid #d2ede7;
+}
+.tab_top_title{
+	font-size:16px;
+	font-weight: 600;
+	text-align: center;
+	padding:30px 0;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,239 @@
+/*------卫生局端样式------*/
+/*.mainRight{
+	left:0;
+	top:0;
+}*/
+.sendNewMesBox{
+	width:100%;
+	height:100%;
+	padding:0 20px;
+}
+.newMes_checkbox{
+	width:100%;
+	height:auto;
+	background:#fff;
+	padding:10px 0;
+	overflow:hidden;
+}
+.reseve_people{
+	float:left;
+	width:49%;
+	height:150px;
+	border-right:1px solid #d2ede7;
+}
+.reseve_people h3,.reseve_area h3{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	font-size:14px;
+	padding-left: 10px;
+}
+.reseve_area{
+	float:right;
+	width:49%;
+	height: 150px;
+}
+.reseve_people_box{
+	width:100%;
+	height:150%;
+	overflow:hidden;
+}
+.reseve_people_List{
+	width:29%;
+	height:100%;
+	float:left;
+	margin-left:20px;
+}
+.reseve_people_List div{
+	width: 100%;
+	height:30px;
+}
+
+.reseve_people_List div input{
+	width:14px;
+	height:14px;
+	margin:0 10px 0 30px;
+
+}
+.reseve_people_List .checkbox_margin input{
+	margin-left:10px;
+}
+.reseve_area_box{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+.reseve_area_box div{
+	width:30%;
+	height:30px;
+	float:left;
+}
+.reseve_area_box div input{
+	width:14px;
+	height:14px;
+	margin:0 10px 0 30px;
+}
+.message_content{
+	width:100%;
+	height:auto;
+	background:#fff;
+}
+.message_content_header{
+	width:100%;
+	height:50px;
+	background: #e9f4f2;
+	overflow:hidden;
+}
+.message_content_header h1{
+	width:100px;
+	height:50px;
+	line-height: 50px;
+	font-size:14px;
+	float:left;
+}
+.messageList_box{
+	width:165px;
+	height:50px;
+	float:right;
+}
+.messageList_box span{
+	line-height: 50px;
+	color:#999;
+}
+.messageList_box select{
+	width:100px;
+	height:30px;
+	border:1px solid #d2ede7;
+	margin-left: 10px;
+	background:#fff;
+}
+.message_content_body{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+}
+.message_content_body h2{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	color:#999;
+	padding-left:20px;
+	font-size:14px;
+}
+.message_content_body input{
+	width:96%;
+	height:30px;
+	background:#fff;
+	border:1px solid #d2ede7;
+	margin-left:2%;
+	padding-left:10px;
+	color:#666;
+}
+.message_content_body textarea{
+	width:96%;
+	height:100px;
+	resize:none;
+	border:1px solid #d2ede7;
+	margin-left:2%;
+	padding-left:10px;
+}
+.healthBureau_btn{
+	width:100%;
+	height:80px;
+	padding:30px 0 20px;
+	position: relative;
+}
+.healthBureau_btn button{
+	width:90px;
+	height:30px;
+	border:0;
+	border-radius: 3px;
+}
+.healthBureau_btn .clear_btn{
+	color:#999;
+	border:1px solid #ccc;
+	background:#fff;
+	position:absolute;
+	left:50%;
+	margin-left: -105px;
+}
+.healthBureau_btn .clear_btn:hover{
+	color:#fff;
+	background: #33d9b7;
+	border:0;
+}
+.send_btn{
+	color:#fff;
+	background: #00cfa5;
+	position: absolute;
+	left:50%;
+	margin-left:60px;
+}
+.messageHostory_box{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+}
+.news_sendTime{
+	width:100%;
+	height:40px;
+	background:#e9f4f2;
+}
+.messageHostory_details{
+	width:100%;
+	height:200px;
+	border:1px solid #d2ede7;
+	margin-bottom: 10px;
+}
+.news_sendTime>p{
+	width:240px;
+	height:40px;
+	line-height:40px;
+	float:left;
+	font-size:14px;
+	padding-left:15px;
+	color:#999;
+}
+.news_bt_content{
+	width:100%;
+	height:100px;
+	padding:0 20px;
+	border-bottom: 1px solid #d2ede7;
+}
+.news_bt_content h2{
+	width:100%;
+	height:40px;
+	font-size:14px;
+	line-height: 40px;
+}
+.news_bt_content>p{
+	line-height: 30px;
+}
+.news_consignee{
+	width:100%;
+	height:60px;
+	padding-left:20px;
+}
+.news_consignee p{
+	width:100%;
+	height:30px;
+	line-height: 30px;
+}
+
+
+
+.tR_initedtriage_header_left input{
+	width:150px;
+	height:30px;
+	border:1px solid #d2ede7;
+	background-color:#fff;
+	float:left;
+}
+.laydate-icon{
+	cursor: pointer;
+	background:url(../skins/molv/rili_1.png) no-repeat 125px center;
+}
+
+
+
+

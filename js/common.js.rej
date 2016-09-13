@@ -1,0 +1,27 @@
+diff a/js/common.js b/js/common.js	(rejected hunks)
+@@ -13,11 +13,21 @@
+ })
+ 
+ // if($(".notice2").attr("display")=="inline-block"){
+-
++$('.reg_check_btns').click(function(){
++	$('.reg_tiaokuan_con').css('border','none');
++});
+ 	
+ // }
+ $(".fuzhen_ral").click(function(){
+ 	if($(this).attr("checked")=="checked"){
+ 		$(".fuzhen").css("display","none");
+ 	}
+-})
+\ No newline at end of file
++});
++function heightSet(elem){
++		var height=$(window).height();
++		height=height-95;
++		console.log(elem);
++		if(height>elem.height()){
++			elem.css('height',height+'px');
++		}
++	}
+\ No newline at end of file

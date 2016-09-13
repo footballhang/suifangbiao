@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>老年人生活自理能力评估表</title>
+	<link rel="stylesheet" href="need/laydate.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/familyDoctor.css"/>
+	<script src="js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div class="content">
+		<div class="header"></div>
+		<div class="main">
+			<div class="mainLeft"></div>
+			<div class="mainRight">		
+				<div class="tR_complete_main">
+				<div class="tR_initiated_main">
+					<div class="tR_triage_item">
+						<h1>65岁及以上老年人</h1>
+						<div class="tR_triage_item_right">
+							<a href="index.html">首页</a>
+							<span>&nbsp;>&nbsp;</span>
+							<a href="javascript:;">65岁及以上老年人</a>
+						</div>
+					</div>
+					<div class="tR_triage_main tR_cmp_tr_main">
+						<div class="familyF_detail">
+							<h3>老年人组</h3>
+							<div><p>姓名：<span>李丽</span></p><p>性别：<span>女</span></p><p>出生日期：<span>2015-06－02</span></p><p>年龄：<span>1</span></p><p>责任医生：<span>管理员</span></p></div>
+						</div>
+						<div class="tR_patientInfo_item cH_patientInfo_item">
+							<h1>老年人生活自理能力评估表</h1>
+							<a href="###" class='tR_patientInfo_item_link hover_font_green'>修改</a>
+							<a href="###" class='tR_patientInfo_item_link hover_font_green save_base'>保存</a>
+						</div>
+						<div class="tR_patientInfo">
+							<div class="tR_patientInfo_item">
+								<h1>基本信息</h1>
+							</div>
+							<div class="visitedStyle_base">
+								<div class="visitedStyle_name">
+									<span>姓名</span>
+									<input type="text"/>
+								</div>
+								<div class="visitedStyle">
+									<span>随访方式</span>
+									<select>
+										<option>请选择</option>
+										<option>门诊</option>
+										<option>家庭</option>
+										<option>电话</option>
+									</select>
+								</div>
+								<div class="newFiles_num">
+									<span>编号</span><input type="text"/>
+								</div>
+							</div>
+						</div>
+						<div class="tR_patientInfo">
+							<h4 class="tab_top_title">老年人生活自理能力评估表</h4>
+							<table class="tab_list">
+								<tr>
+								    <td rowspan="2" style="height:80px;
+								    line-height:80px;text-align:center;font-weight:600;font-size:15px;">评估事项、内容与评分</td>
+								    <td colspan="5" style="height:40px;
+								    line-height:40px;text-align:center;font-weight:600;font-size:15px;">程度等级</td>
+								</tr>
+								<tr class="tab_title">
+								    <td style="text-align:center;font-weight:600;font-size:13px;width:15%;">可自理</td>
+								    <td style="text-align:center;font-weight:600;font-size:13px;width:17%;">轻度依赖</td>
+								    <td style="text-align:center;font-weight:600;font-size:13px;width:18%;">中度依赖</td>
+								    <td style="text-align:center;font-weight:600;font-size:13px;width:15%;">不能自理</td>
+								    <td style="width:10%;text-align:center;font-weight:600;font-size:13px;">判断评分</td>
+								</tr>
+								<tr class="tab_list_tr">
+								    <td>（1）进餐：使用餐具将饭菜送入口、咀嚼、吞咽等活动</td>
+								    <td data-point="0"><input type="radio" name="selfEat" />独立完成</td>
+								    <td></td>
+								    <td data-point="3"><input type="radio" name="selfEat" />需要协助，如切碎、搅拌食物等</td>
+								    <td data-point="5"><input type="radio" name="selfEat" />完全需要帮助</td>
+								    <td></td>
+								</tr>
+								<tr class="tab_list_tr">
+								    <td>（2）梳洗：梳头、洗脸、刷牙、剃须、洗澡等活动</td>
+								    <td data-point="0"><input type="radio" name="selfCleanUp" />独立完成</td>
+								    <td data-point="1"><input type="radio" name="selfCleanUp" />能独立的梳头、洗脸、刷牙、剃须、洗澡等，洗澡需要协助</td>
+								    <td data-point="3"><input type="radio" name="selfCleanUp" />在协助下和适当的时间内，能完成部分梳洗活动</td>
+								    <td data-point="7"><input type="radio" name="selfCleanUp" />完全需要帮助</td>
+								    <td></td>
+								</tr>
+								<tr class="tab_list_tr">
+								    <td>（3）穿衣：穿衣库、袜子、鞋子等活动</td>
+								    <td data-point="0"><input type="radio" name="selfDress" />独立完成</td>
+								    <td></td>
+								    <td data-point="3"><input type="radio" name="selfDress" />需要协助，在适当的时间内完成部分穿衣</td>
+								    <td data-point="5"><input type="radio" name="selfDress" />完全需要帮助</td>
+								    <td></td>
+								</tr>
+								<tr class="tab_list_tr">
+								    <td>（4）如厕：小便、大便等活动及自控</td>
+								    <td data-point="0"><input type="radio" name="selfWC" />不需协助，可自控</td>
+								    <td data-point="1"><input type="radio" name="selfWC" />偶尔失禁，但基本上能如厕和使用便具</td>
+								    <td data-point="5"><input type="radio" name="selfWC" />经常失禁，在很多提示和协助下尚能如厕和使用便具</td>
+								    <td data-point="10"><input type="radio" name="selfWC" />完全失禁，完全需要帮助</td>
+								    <td></td>
+								</tr>
+								<tr class="tab_list_tr">
+								    <td>（5）活动：站立、室内行走、上下楼梯、户外活动</td>
+								    <td data-point="0"><input type="radio" name="selfPlay" />独立完成所有活动</td>
+								    <td data-point="1"><input type="radio" name="selfPlay" />借助较小的外力或辅助装置能完成站立、行走、上下楼梯等</td>
+								    <td data-point="5"><input type="radio" name="selfPlay" />借助较大的外力才能完成站立、行走，不能上下楼梯。</td>
+								    <td data-point="10"><input type="radio" name="selfPlay" />卧床不起，活动完全需要帮住</td>
+								    <td></td>
+								</tr>
+								<tr class="tab_list_tr">
+								    <td style="text-align:center;">填表时间</td>
+								    <td colspan="2"><input type="text" placeholder="请填写" id="dataTime"></td>
+								    <td colspan="2">总评分</td>
+								    <td>&nbsp;</td>
+								</tr>
+							</table>
+						</div>
+					<div class="form_btn_box form_btn_box1">
+						<button class="form_saveBtn btn_bg_change" type="button">保存</button>
+						<button class="form_backBtn" type="button">返回</button>
+					</div>
+					<div class="familyFiles_dalog"></div>	
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="need/laydate.js"></script>
+	<script>
+	laydate({
+		elem: '#dataTime',
+		format: 'YYYY/MM/DD'
+	})
+	</script>
+</body>
+</html>
