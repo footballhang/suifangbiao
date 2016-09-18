@@ -1,0 +1,17 @@
+.body_check input{
+    width: 150px;
+}
+.other_hostory_div span{
+    vertical-align: top;
+}
+.cH_past_hostory_list>div input[type="checkbox"]{
+    height: 30px;
+    line-height: 20px;
+    display: inline-block;
+    width: 20px;
+    vertical-align: bottom
+}
+.cH_past_hostory_list div .suifang_date{
+    display: inline-block;
+    width: 150px;
+}

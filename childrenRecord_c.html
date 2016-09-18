@@ -3,10 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>1~2岁儿童健康检查记录表</title>
+    <title>1～2岁儿童健康检查记录表</title>
     <link rel="stylesheet" type="text/css" href="css/base.css"/>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="css/familyDoctor.css"/>
+    <link rel="stylesheet" href="css/childCheck.css"/>
     <script src="js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
@@ -31,7 +32,7 @@
                             <div><p>姓名：<span>李丽</span></p><p>性别：<span>女</span></p><p>出生日期：<span>2015-06－02</span></p><p>年龄：<span>1</span></p><p>责任医生：<span>管理员</span></p></div>
                         </div> -->
                         <div class="tR_patientInfo_item cH_patientInfo_item">
-                            <h1>1岁以内儿童健康检查记录表</h1>
+                            <h1>1～2岁儿童健康检查记录表</h1>
                             <a href="###" class='tR_patientInfo_item_link hover_font_green'>修改</a>
                             <a href="###" class='tR_patientInfo_item_link hover_font_green save_base'>保存</a>
                         </div>
@@ -46,8 +47,10 @@
                         </div>
                         <div class="tR_patientInfo">
                             <ul class="tR_patientInfo_ul">
-                                <li class="tR_patientInfo_li">满月</li><li>3月龄</li>
-                                <li>6月龄</li><li>8月龄</li>
+                                <li class="tR_patientInfo_li">12月龄</li>
+                                <li>18月龄</li>
+                                <li>24月龄</li>
+                                <li>30月龄</li>
                             </ul>
                             <div class="tR_patientInfo_con">
                                 <div class="cH_past_hostory">
@@ -55,7 +58,7 @@
                                     <div class="cH_past_hostory_list">
                                         <div>
                                             <span>体重（kg）:</span>
-                                            <input type="text"/>
+                                            <input type="number" max="200" min="0"/>
                                             <select>
                                                 <option>请选择</option>
                                                 <option>上</option>
@@ -65,7 +68,7 @@
                                         </div>
                                         <div>
                                             <span>身长（cm）:</span>
-                                            <input type="text"/>
+                                            <input type="number" max="200" min="0"/>
                                             <select>
                                                 <option>请选择</option>
                                                 <option>上</option>
@@ -73,21 +76,21 @@
                                                 <option>下</option>
                                             </select>
                                         </div>
-                                        <div>
-                                            <span>头围（cm）:</span>
-                                            <input type="text"/>
-                                        </div>
+                                        <!--<div>-->
+                                            <!--<span>头围（cm）:</span>-->
+                                            <!--<input type="text"/>-->
+                                        <!--</div>-->
                                     </div>
                                 </div>
-                                <div class="cH_past_hostory">
+                                <div class="cH_past_hostory body_check">
                                     <p>体格检查</p>
-                                    <div class="cH_past_hostory_list cH_past_hostory_listA oneMouth_age">
+                                    <div class="cH_past_hostory_list cH_past_hostory_listA twelveMouth_age">
                                         <div>
                                             <span>面色:</span>
                                             <select>
                                                 <option>请选择</option>
                                                 <option>红润</option>
-                                                <option>黄染</option>
+                                                <!--<option>黄染</option>-->
                                                 <option>其他</option>
                                             </select>
                                         </div>
@@ -106,276 +109,16 @@
                                                 <option>闭合</option>
                                                 <option>未闭</option>
                                             </select>
-                                            <input type="text"/>cmX<input type="text"/>cm
+                                            <input type="number" style="width: 50px"/>cmX<input type="number" style="width: 50px"/>cm
                                         </div>
-                                        <div>
-                                            <span>颈部包块:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>有</option>
-                                                <option>无</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>眼外观:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>未见异常</option>
-                                                <option>异常</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>耳外观:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>未见异常</option>
-                                                <option>异常</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>听力:</span>
-                                            <select>
-                                                <option>------</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>口腔:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>未见异常</option>
-                                                <option>异常</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>心肺:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>未见异常</option>
-                                                <option>异常</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>腹部:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>未见异常</option>
-                                                <option>异常</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>脐部:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>未脱</option>
-                                                <option>脱落</option>
-                                                <option>脐部有渗出</option>
-                                                <option>其他</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>四肢:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>未见异常</option>
-                                                <option>异常</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>可疑佝偻病症状:</span>
-                                            <select>
-                                                <option>------</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>可疑佝偻病体征:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>无</option>
-                                                <option>颅骨软化</option>
-                                                <option>方颅</option>
-                                                <option>枕秃</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>肛门/外生殖:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>未见异常</option>
-                                                <option>异常</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>血红蛋白值:</span>
-                                            <input type="text"/>g/L
-                                        </div>
-                                    </div>
-                                    <div class="cH_past_hostory_list cH_past_hostory_listA threeMouth_age none">
-                                        <div>
-                                            <span>面色:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>红润</option>
-                                                <option>黄染</option>
-                                                <option>其他</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>皮肤:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>未见异常</option>
-                                                <option>异常</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>前囟:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>闭合</option>
-                                                <option>未闭</option>
-                                            </select>
-                                            <input type="text"/>cmX<input type="text"/>cm
-                                        </div>
-                                        <div>
-                                            <span>颈部包块:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>有</option>
-                                                <option>无</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>眼外观:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>未见异常</option>
-                                                <option>异常</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>耳外观:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>未见异常</option>
-                                                <option>异常</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>听力:</span>
-                                            <select>
-                                                <option>------</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>口腔:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>未见异常</option>
-                                                <option>异常</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>心肺:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>未见异常</option>
-                                                <option>异常</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>腹部:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>未见异常</option>
-                                                <option>异常</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>脐部:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>未脱</option>
-                                                <option>脱落</option>
-                                                <option>脐部有渗出</option>
-                                                <option>其他</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>四肢:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>未见异常</option>
-                                                <option>异常</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>可疑佝偻病症状:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>无</option>
-                                                <option>多汗</option>
-                                                <option>夜惊</option>
-                                                <option>烦躁</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>可疑佝偻病体征:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>无</option>
-                                                <option>颅骨软化</option>
-                                                <option>方颅</option>
-                                                <option>枕秃</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>肛门/外生殖:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>未见异常</option>
-                                                <option>异常</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>血红蛋白值:</span>
-                                            <input type="text"/>g/L
-                                        </div>
-                                    </div>
-                                    <div class="cH_past_hostory_list cH_past_hostory_listA sixMouth_age none">
-                                        <div>
-                                            <span>面色:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>红润</option>
-                                                <option>黄染</option>
-                                                <option>其他</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>皮肤:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>未见异常</option>
-                                                <option>异常</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>前囟:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>闭合</option>
-                                                <option>未闭</option>
-                                            </select>
-                                            <input type="text"/>cmX<input type="text"/>cm
-                                        </div>
-                                        <div>
-                                            <span>颈部包块:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>有</option>
-                                                <option>无</option>
-                                            </select>
-                                        </div>
+                                        <!--<div>-->
+                                            <!--<span>颈部包块:</span>-->
+                                            <!--<select>-->
+                                                <!--<option>请选择</option>-->
+                                                <!--<option>有</option>-->
+                                                <!--<option>无</option>-->
+                                            <!--</select>-->
+                                        <!--</div>-->
                                         <div>
                                             <span>眼外观:</span>
                                             <select>
@@ -401,10 +144,8 @@
                                             </select>
                                         </div>
                                         <div>
-                                            <span>出芽颗数:</span>
-                                            <select>
-                                                <input type="text"/>
-                                            </select>
+                                            <span>出牙颗数:</span>
+                                            <input type="text"/>
                                         </div>
                                         <div>
                                             <span>心肺:</span>
@@ -422,12 +163,16 @@
                                                 <option>异常</option>
                                             </select>
                                         </div>
-                                        <div>
-                                            <span>脐部:</span>
-                                            <select>
-                                                <option>-----</option>
-                                            </select>
-                                        </div>
+                                        <!--<div>-->
+                                            <!--<span>脐部:</span>-->
+                                            <!--<select>-->
+                                                <!--<option>请选择</option>-->
+                                                <!--<option>未脱</option>-->
+                                                <!--<option>脱落</option>-->
+                                                <!--<option>脐部有渗出</option>-->
+                                                <!--<option>其他</option>-->
+                                            <!--</select>-->
+                                        <!--</div>-->
                                         <div>
                                             <span>四肢:</span>
                                             <select>
@@ -437,45 +182,39 @@
                                             </select>
                                         </div>
                                         <div>
-                                            <span>可疑佝偻病症状:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>无</option>
-                                                <option>多汗</option>
-                                                <option>夜惊</option>
-                                                <option>烦躁</option>
+                                            <span>步态:</span>
+                                            <select disabled>
+                                                <option>------</option>
                                             </select>
                                         </div>
                                         <div>
                                             <span>可疑佝偻病体征:</span>
                                             <select>
                                                 <option>请选择</option>
-                                                <option>无</option>
-                                                <option>颅骨软化</option>
-                                                <option>方颅</option>
-                                                <option>枕秃</option>
+                                                <option>"O"型腿</option>
+                                                <option>"X"型腿</option>
                                             </select>
                                         </div>
-                                        <div>
-                                            <span>肛门/外生殖:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>未见异常</option>
-                                                <option>异常</option>
-                                            </select>
-                                        </div>
+                                        <!--<div>-->
+                                            <!--<span>肛门/外生殖:</span>-->
+                                            <!--<select>-->
+                                                <!--<option>请选择</option>-->
+                                                <!--<option>未见异常</option>-->
+                                                <!--<option>异常</option>-->
+                                            <!--</select>-->
+                                        <!--</div>-->
                                         <div>
                                             <span>血红蛋白值:</span>
                                             <input type="text"/>g/L
                                         </div>
                                     </div>
-                                    <div class="cH_past_hostory_list cH_past_hostory_listA eightMouth_age none">
+                                    <div class="cH_past_hostory_list cH_past_hostory_listA eighteenMouth_age none">
                                         <div>
                                             <span>面色:</span>
                                             <select>
                                                 <option>请选择</option>
                                                 <option>红润</option>
-                                                <option>黄染</option>
+                                                <!--<option>黄染</option>-->
                                                 <option>其他</option>
                                             </select>
                                         </div>
@@ -494,14 +233,16 @@
                                                 <option>闭合</option>
                                                 <option>未闭</option>
                                             </select>
-                                            <input type="text"/>cmX<input type="text"/>cm
+                                            <input type="number" style="width: 50px"/>cmX<input type="number" style="width: 50px"/>cm
                                         </div>
-                                        <div>
-                                            <span>颈部包块:</span>
-                                            <select>
-                                                <option>-----</option>
-                                            </select>
-                                        </div>
+                                        <!--<div>-->
+                                        <!--<span>颈部包块:</span>-->
+                                        <!--<select>-->
+                                        <!--<option>请选择</option>-->
+                                        <!--<option>有</option>-->
+                                        <!--<option>无</option>-->
+                                        <!--</select>-->
+                                        <!--</div>-->
                                         <div>
                                             <span>眼外观:</span>
                                             <select>
@@ -521,14 +262,12 @@
                                         <div>
                                             <span>听力:</span>
                                             <select>
-                                                <option>-----</option>
+                                                <option>------</option>
                                             </select>
                                         </div>
                                         <div>
-                                            <span>出芽颗数:</span>
-                                            <select>
-                                                <input type="text"/>
-                                            </select>
+                                            <span>出牙颗数:</span>
+                                            <input type="text"/>
                                         </div>
                                         <div>
                                             <span>心肺:</span>
@@ -546,12 +285,16 @@
                                                 <option>异常</option>
                                             </select>
                                         </div>
-                                        <div>
-                                            <span>脐部:</span>
-                                            <select>
-                                                <option>-----</option>
-                                            </select>
-                                        </div>
+                                        <!--<div>-->
+                                        <!--<span>脐部:</span>-->
+                                        <!--<select>-->
+                                        <!--<option>请选择</option>-->
+                                        <!--<option>未脱</option>-->
+                                        <!--<option>脱落</option>-->
+                                        <!--<option>脐部有渗出</option>-->
+                                        <!--<option>其他</option>-->
+                                        <!--</select>-->
+                                        <!--</div>-->
                                         <div>
                                             <span>四肢:</span>
                                             <select>
@@ -561,33 +304,277 @@
                                             </select>
                                         </div>
                                         <div>
-                                            <span>可疑佝偻病症状:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>无</option>
-                                                <option>多汗</option>
-                                                <option>夜惊</option>
-                                                <option>烦躁</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>可疑佝偻病体征:</span>
-                                            <select>
-                                                <option>请选择</option>
-                                                <option>无</option>
-                                                <option>颅骨软化</option>
-                                                <option>方颅</option>
-                                                <option>枕秃</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <span>肛门/外生殖:</span>
+                                            <span>步态:</span>
                                             <select>
                                                 <option>请选择</option>
                                                 <option>未见异常</option>
                                                 <option>异常</option>
                                             </select>
                                         </div>
+                                        <div>
+                                            <span>可疑佝偻病体征:</span>
+                                            <select>
+                                                <option>请选择</option>
+                                                <option>"O"型腿</option>
+                                                <option>"X"型腿</option>
+                                            </select>
+                                        </div>
+                                        <!--<div>-->
+                                        <!--<span>肛门/外生殖:</span>-->
+                                        <!--<select>-->
+                                        <!--<option>请选择</option>-->
+                                        <!--<option>未见异常</option>-->
+                                        <!--<option>异常</option>-->
+                                        <!--</select>-->
+                                        <!--</div>-->
+                                        <div>
+                                            <span>血红蛋白值:</span>
+                                            <input type="text"/>g/L
+                                        </div>
+                                    </div>
+                                    <div class="cH_past_hostory_list cH_past_hostory_listA twenty-fourMouth_age none">
+                                        <div>
+                                            <span>面色:</span>
+                                            <select>
+                                                <option>请选择</option>
+                                                <option>红润</option>
+                                                <!--<option>黄染</option>-->
+                                                <option>其他</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <span>皮肤:</span>
+                                            <select>
+                                                <option>请选择</option>
+                                                <option>未见异常</option>
+                                                <option>异常</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <span>前囟:</span>
+                                            <select>
+                                                <option>请选择</option>
+                                                <option>闭合</option>
+                                                <option>未闭</option>
+                                            </select>
+                                            <input type="number" style="width: 50px"/>cmX<input type="number" style="width: 50px"/>cm
+                                        </div>
+                                        <!--<div>-->
+                                        <!--<span>颈部包块:</span>-->
+                                        <!--<select>-->
+                                        <!--<option>请选择</option>-->
+                                        <!--<option>有</option>-->
+                                        <!--<option>无</option>-->
+                                        <!--</select>-->
+                                        <!--</div>-->
+                                        <div>
+                                            <span>眼外观:</span>
+                                            <select>
+                                                <option>请选择</option>
+                                                <option>未见异常</option>
+                                                <option>异常</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <span>耳外观:</span>
+                                            <select>
+                                                <option>请选择</option>
+                                                <option>未见异常</option>
+                                                <option>异常</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <span>听力:</span>
+                                            <select>
+                                                <option>请选择</option>
+                                                <option>通过</option>
+                                                <option>未通过</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <span>出牙颗数:</span>
+                                            <input type="text"/>
+                                        </div>
+                                        <div>
+                                            <span>心肺:</span>
+                                            <select>
+                                                <option>请选择</option>
+                                                <option>未见异常</option>
+                                                <option>异常</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <span>腹部:</span>
+                                            <select>
+                                                <option>请选择</option>
+                                                <option>未见异常</option>
+                                                <option>异常</option>
+                                            </select>
+                                        </div>
+                                        <!--<div>-->
+                                        <!--<span>脐部:</span>-->
+                                        <!--<select>-->
+                                        <!--<option>请选择</option>-->
+                                        <!--<option>未脱</option>-->
+                                        <!--<option>脱落</option>-->
+                                        <!--<option>脐部有渗出</option>-->
+                                        <!--<option>其他</option>-->
+                                        <!--</select>-->
+                                        <!--</div>-->
+                                        <div>
+                                            <span>四肢:</span>
+                                            <select>
+                                                <option>请选择</option>
+                                                <option>未见异常</option>
+                                                <option>异常</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <span>步态:</span>
+                                            <select>
+                                                <option>请选择</option>
+                                                <option>未见异常</option>
+                                                <option>异常</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <span>可疑佝偻病体征:</span>
+                                            <select>
+                                                <option>请选择</option>
+                                                <option>"O"型腿</option>
+                                                <option>"X"型腿</option>
+                                            </select>
+                                        </div>
+                                        <!--<div>-->
+                                        <!--<span>肛门/外生殖:</span>-->
+                                        <!--<select>-->
+                                        <!--<option>请选择</option>-->
+                                        <!--<option>未见异常</option>-->
+                                        <!--<option>异常</option>-->
+                                        <!--</select>-->
+                                        <!--</div>-->
+                                        <div>
+                                            <span>血红蛋白值:</span>
+                                            <input type="text"/>g/L
+                                        </div>
+                                    </div>
+                                    <div class="cH_past_hostory_list cH_past_hostory_listA thirtyMouth_age none">
+                                        <div>
+                                            <span>面色:</span>
+                                            <select>
+                                                <option>请选择</option>
+                                                <option>红润</option>
+                                                <!--<option>黄染</option>-->
+                                                <option>其他</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <span>皮肤:</span>
+                                            <select>
+                                                <option>请选择</option>
+                                                <option>未见异常</option>
+                                                <option>异常</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <span>前囟:</span>
+                                            <select>
+                                                <option>请选择</option>
+                                                <option>闭合</option>
+                                                <option>未闭</option>
+                                            </select>
+                                            <input type="number" style="width: 50px"/>cmX<input type="number" style="width: 50px"/>cm
+                                        </div>
+                                        <!--<div>-->
+                                        <!--<span>颈部包块:</span>-->
+                                        <!--<select>-->
+                                        <!--<option>请选择</option>-->
+                                        <!--<option>有</option>-->
+                                        <!--<option>无</option>-->
+                                        <!--</select>-->
+                                        <!--</div>-->
+                                        <div>
+                                            <span>眼外观:</span>
+                                            <select>
+                                                <option>请选择</option>
+                                                <option>未见异常</option>
+                                                <option>异常</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <span>耳外观:</span>
+                                            <select>
+                                                <option>------</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <span>听力:</span>
+                                            <select>
+                                                <option>请选择</option>
+                                                <option>通过</option>
+                                                <option>未通过</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <span>出牙颗数:</span>
+                                            <input type="text"/>
+                                        </div>
+                                        <div>
+                                            <span>心肺:</span>
+                                            <select>
+                                                <option>请选择</option>
+                                                <option>未见异常</option>
+                                                <option>异常</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <span>腹部:</span>
+                                            <select>
+                                                <option>请选择</option>
+                                                <option>未见异常</option>
+                                                <option>异常</option>
+                                            </select>
+                                        </div>
+                                        <!--<div>-->
+                                        <!--<span>脐部:</span>-->
+                                        <!--<select>-->
+                                        <!--<option>请选择</option>-->
+                                        <!--<option>未脱</option>-->
+                                        <!--<option>脱落</option>-->
+                                        <!--<option>脐部有渗出</option>-->
+                                        <!--<option>其他</option>-->
+                                        <!--</select>-->
+                                        <!--</div>-->
+                                        <div>
+                                            <span>四肢:</span>
+                                            <select>
+                                                <option>请选择</option>
+                                                <option>未见异常</option>
+                                                <option>异常</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <span>步态:</span>
+                                            <select>
+                                                <option>请选择</option>
+                                                <option>未见异常</option>
+                                                <option>异常</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <span>可疑佝偻病体征:</span>
+                                            <select>
+                                                <option>------</option>
+                                            </select>
+                                        </div>
+                                        <!--<div>-->
+                                        <!--<span>肛门/外生殖:</span>-->
+                                        <!--<select>-->
+                                        <!--<option>请选择</option>-->
+                                        <!--<option>未见异常</option>-->
+                                        <!--<option>异常</option>-->
+                                        <!--</select>-->
+                                        <!--</div>-->
                                         <div>
                                             <span>血红蛋白值:</span>
                                             <input type="text"/>g/L
@@ -610,7 +597,7 @@
                                             <select>
                                                 <option>请选择</option>
                                                 <option>通过</option>
-                                                <option>未过</option>
+                                                <option>未通过</option>
                                             </select>
                                         </div>
                                         <div>
@@ -622,7 +609,7 @@
                                             </select>
                                         </div>
                                         <div class="other_hostory_div">
-                                            <span>其他:</span>
+                                            <span style="vertical-align: top">其他:</span>
                                             <textarea name="textarea"></textarea>
                                         </div>
                                     </div>
@@ -687,6 +674,10 @@
                                         <label>口腔保健</label>
                                     </div>
                                 </div>
+                                <div class="other_hostory_div" style="height: auto;">
+                                    <span>其他</span>
+                                    <textarea name="textarea"></textarea>
+                                </div>
                             </div>
                             <div class="cH_operation_box chineseMedicine none">
                                 <div>
@@ -712,7 +703,7 @@
                             <div class="cH_transfer_record cH_transfer_record3">
                                 <div class="transfer_record_c">
                                     <span>下次随访时间:</span>
-                                    <input type="text"/>
+                                    <input type="date"/>
                                 </div>
                                 <div class="transfer_record_c">
                                     <span>随访医生签名:</span>
@@ -764,9 +755,15 @@
         $('.mainLeft_small_li').eq(0).find('li').eq(1).addClass('mainLeft_small_active');
     });
 
-    $(".tR_patientInfo_ul>li").click(function(){
-        $(this).addClass('tR_patientInfo_li').siblings().removeClass('tR_patientInfo_li');
-    })
+//    $(".tR_patientInfo_ul>li").click(function(){
+//        $(this).addClass('tR_patientInfo_li').siblings().removeClass('tR_patientInfo_li');
+//    })
+    $(".tR_patientInfo_ul>li").each(function(index,e){
+        $(this).on("click",function(){
+            $(this).addClass('tR_patientInfo_li').siblings().removeClass('tR_patientInfo_li');
+            $(".body_check>div").addClass("none").eq(index).removeClass("none");
+        })
+    });
 </script>
 </body>
 </html>
