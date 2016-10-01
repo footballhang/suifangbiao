@@ -27,10 +27,10 @@
                         </div>
                     </div>
                     <div class="tR_triage_main tR_cmp_tr_main">
-                        <!-- <div class="familyF_detail">
+                         <div class="familyF_detail">
                             <h3>1岁以内儿童健康检查记录表</h3>
                             <div><p>姓名：<span>李丽</span></p><p>性别：<span>女</span></p><p>出生日期：<span>2015-06－02</span></p><p>年龄：<span>1</span></p><p>责任医生：<span>管理员</span></p></div>
-                        </div> -->
+                        </div>
                         <div class="tR_patientInfo_item cH_patientInfo_item">
                             <h1>3～6岁儿童健康检查记录表</h1>
                             <a href="###" class='tR_patientInfo_item_link hover_font_green'>修改</a>
@@ -108,14 +108,6 @@
                                             <span>牙数齿数:</span>
                                             <input type="text"/>
                                         </div>
-                                        <!--<div>-->
-                                            <!--<span>颈部包块:</span>-->
-                                            <!--<select>-->
-                                                <!--<option>请选择</option>-->
-                                                <!--<option>有</option>-->
-                                                <!--<option>无</option>-->
-                                            <!--</select>-->
-                                        <!--</div>-->
                                         <div>
                                             <span>心肺:</span>
                                             <select>
@@ -496,8 +488,15 @@
         $(this).on("click",function(){
             $(this).addClass('tR_patientInfo_li').siblings().removeClass('tR_patientInfo_li');
             $(".body_check>div").addClass("none").eq(index).removeClass("none");
+            $(".body_check>div").find("input").attr("disabled",true);
+            $(".body_check>div").find("select").attr("disabled",true);
+            $(".body_check>div").find("textarea").attr("disabled",true);
+            $(".body_check>div").eq(index).find("input").removeAttr("disabled");
+            $(".body_check>div").eq(index).find("select").removeAttr("disabled");
+            $(".body_check>div").eq(index).find("textarea").removeAttr("disabled");
         })
     });
+
 </script>
 </body>
 </html>

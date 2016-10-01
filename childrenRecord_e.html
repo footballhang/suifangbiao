@@ -59,7 +59,7 @@
                                     <p>随访日期</p>
                                     <div class="cH_past_hostory_list" style="width: 90%">
                                         <div>
-                                            <input type="date" class="suifang_date" value="11111"/>
+                                            <input type="date" class="suifang_date"/>
                                         </div>
                                     </div>
                                 </div>
@@ -247,10 +247,23 @@
 //    var x=new Date();
 //    var s=formatDate(x);
 
+    //默认其他页签下表单元素禁用
+    function Form_auto(){
+        $(".body_check>div").find("input").attr("disabled",true);
+        $(".body_check>div").find("textarea").attr("disabled",true);
+        $(".body_check>div").eq(0).find("input").removeAttr("disabled");
+        $(".body_check>div").eq(0).find("textarea").removeAttr("disabled");
+    };
+    Form_auto();
+
     $(".tR_patientInfo_ul>li").each(function(index,e){
         $(this).on("click",function(){
             $(this).addClass('tR_patientInfo_li').siblings().removeClass('tR_patientInfo_li');
             $(".body_check>div").addClass("none").eq(index).removeClass("none");
+            $(".body_check>div").find("input").attr("disabled",true);
+            $(".body_check>div").find("textarea").attr("disabled",true);
+            $(".body_check>div").eq(index).find("input").removeAttr("disabled");
+            $(".body_check>div").eq(index).find("textarea").removeAttr("disabled");
         })
     });
 
